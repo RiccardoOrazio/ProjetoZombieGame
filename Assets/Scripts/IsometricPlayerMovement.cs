@@ -10,7 +10,7 @@ public class IsometricPlayerMovement : MonoBehaviour
     [SerializeField] private Transform spriteTransform;
 
     [Header("Sprite Settings")]
-    [SerializeField] private bool spriteFacesRightByDefault = true; // Marque isso se seu sprite original olha para a direita
+    [SerializeField] private bool spriteFacesRightByDefault = true;
 
     private Rigidbody rb;
     private Vector2 inputDirection;
