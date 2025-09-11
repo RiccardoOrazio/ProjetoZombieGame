@@ -12,24 +12,26 @@ public class IsometricPlayerMovement : MonoBehaviour
     [Header("Sprite Settings")]
     [SerializeField] private bool spriteFacesRightByDefault = true;
 
+    public bool IsCurrentlyFacingRight { get; private set; }
+
     private Rigidbody rb;
     private Vector2 inputDirection;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        if (spriteTransform == null)
-        {
-            Debug.LogError("A referência para o 'Sprite Transform' não foi definida no Inspector!");
-            enabled = false;
-        }
+        IsCurrentlyFacingRight = spriteFacesRightByDefault;
     }
 
     void Update()
     {
         inputDirection.x = Input.GetAxisRaw("Horizontal");
         inputDirection.y = Input.GetAxisRaw("Vertical");
-        HandleSpriteDirection();
+
+        if (inputDirection.x != 0)
+        {
+            HandleSpriteDirection();
+        }
     }
 
     void FixedUpdate()
@@ -49,16 +51,22 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     private void HandleSpriteDirection()
     {
-        if (inputDirection.x != 0)
-        {
-            float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
-            float scaleX = Mathf.Abs(spriteTransform.localScale.x);
+        float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
+        float scaleX = Mathf.Abs(spriteTransform.localScale.x);
 
-            spriteTransform.localScale = new Vector3(
-                scaleX * Mathf.Sign(inputDirection.x) * directionMultiplier,
-                spriteTransform.localScale.y,
-                spriteTransform.localScale.z
-            );
+        spriteTransform.localScale = new Vector3(
+            scaleX * Mathf.Sign(inputDirection.x) * directionMultiplier,
+            spriteTransform.localScale.y,
+            spriteTransform.localScale.z
+        );
+
+        if (spriteTransform.localScale.x > 0)
+        {
+            IsCurrentlyFacingRight = spriteFacesRightByDefault;
+        }
+        else
+        {
+            IsCurrentlyFacingRight = !spriteFacesRightByDefault;
         }
     }
 }
