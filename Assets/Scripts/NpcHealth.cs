@@ -13,7 +13,6 @@ public class NpcHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        Debug.Log(gameObject.name + " tomou 1 de dano. Vida restante: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -23,7 +22,10 @@ public class NpcHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log(gameObject.name + " foi destruído!");
+        if (GameManagerTemporario.instance != null)
+        {
+            GameManagerTemporario.instance.OnEnemyKilled();
+        }
         Destroy(gameObject);
     }
 }
