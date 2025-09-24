@@ -628,7 +628,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1508789695}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerTemporario, Assembly-CSharp
         m_MethodName: RestartScene
         m_Mode: 1
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1508789695}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerTemporario, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -2844,52 +2844,6 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: e90fce459d14dbe48868dc74b78e1f89, type: 2}
   m_BuildHeightMesh: 0
---- !u!1 &1508789694
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1508789696}
-  - component: {fileID: 1508789695}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1508789695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508789694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61a1867b8c063f64195837fc7fdaca4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  winScreenPanel: {fileID: 1253905194}
-  enemiesToWin: 3
---- !u!4 &1508789696
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508789694}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511708128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,7 +2862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1511708129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4219,4 +4173,3 @@ SceneRoots:
   - {fileID: 1511708132}
   - {fileID: 1253905198}
   - {fileID: 1550453513}
-  - {fileID: 1508789696}
