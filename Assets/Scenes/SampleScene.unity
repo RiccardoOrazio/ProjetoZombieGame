@@ -172,13 +172,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1903620659}
   lines:
-  - "Eu gosto de comer macarr\xE3o com banana, sabia?"
-  - "Eu Tamb\xE9m."
-  - "Gosta de comer com ma\xE7\xE3 tamb\xE9m?"
-  - Gosto sim.
-  - E com piqui?
-  - "Ai n\xE3o, piqui \xE9 muito ruim, prefiro outros sabores, sabe?"
-  textSpeed: 0.05
+  - Rapaz, tem uma galera da boa com um projeto massa
+  - Ideia?
+  - "Ideia, os caras s\xE3o muito bons"
+  - "Quem s\xE3o eles?"
+  - "Riccardo, Samuel, Lucas, Lev\xED, Guilherme,Arthur e o Matt"
+  - Bom demais!
+  textSpeed: 0.04
 --- !u!114 &49969438
 MonoBehaviour:
   m_ObjectHideFlags: 0
