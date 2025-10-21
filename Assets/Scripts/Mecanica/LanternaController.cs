@@ -7,40 +7,40 @@ public class LanternaController : MonoBehaviour
 
     [Header("Configurações")]
     [SerializeField] private float velocidadeRotacao = 15f;
+    [SerializeField] private float distanciaDaLanterna = 2.5f;
 
-    private Vector2 inputDirection;
-    private Camera mainCamera;
+    private AimController aimController;
 
-    void Start()
+    void Awake()
     {
-        mainCamera = Camera.main;
+        aimController = GetComponent<AimController>();
     }
 
     void Update()
     {
-        inputDirection.x = Input.GetAxisRaw("Horizontal");
-        inputDirection.y = Input.GetAxisRaw("Vertical");
-
-        HandleRotacaoLanterna();
+        PosicionarLanterna();
+        RotacionarLanterna();
     }
 
-    private void HandleRotacaoLanterna()
+    private void PosicionarLanterna()
     {
-        if (inputDirection == Vector2.zero) return;
+        Vector3 aimDirection = aimController.AimDirection;
+        Vector3 playerCenterWithOffset = transform.position;
+        Vector3 offset = aimDirection * distanciaDaLanterna;
 
-        var forward = mainCamera.transform.forward;
-        forward.y = 0;
-        forward.Normalize();
+        lanternaHolder.position = new Vector3(
+            playerCenterWithOffset.x + offset.x,
+            lanternaHolder.position.y,
+            playerCenterWithOffset.z + offset.z
+        );
+    }
 
-        var right = mainCamera.transform.right;
-        right.y = 0;
-        right.Normalize();
-
-        Vector3 direcaoMundo = (forward * inputDirection.y + right * inputDirection.x).normalized;
-
-        if (direcaoMundo != Vector3.zero)
+    private void RotacionarLanterna()
+    {
+        Vector3 aimDirection = aimController.AimDirection;
+        if (aimDirection != Vector3.zero)
         {
-            Quaternion rotacaoAlvo = Quaternion.LookRotation(direcaoMundo);
+            Quaternion rotacaoAlvo = Quaternion.LookRotation(aimDirection);
             lanternaHolder.rotation = Quaternion.Slerp(lanternaHolder.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
         }
     }

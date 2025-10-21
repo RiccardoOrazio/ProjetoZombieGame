@@ -13,9 +13,9 @@ public class IsometricPlayerMovement : MonoBehaviour
     [SerializeField] private bool spriteFacesRightByDefault = true;
 
     public bool IsCurrentlyFacingRight { get; private set; }
+    public Vector2 InputDirection { get; private set; }
 
     private Rigidbody rb;
-    private Vector2 inputDirection;
 
     void Awake()
     {
@@ -25,10 +25,9 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     void Update()
     {
-        inputDirection.x = Input.GetAxisRaw("Horizontal");
-        inputDirection.y = Input.GetAxisRaw("Vertical");
+        InputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        if (inputDirection.x != 0)
+        if (InputDirection.x != 0)
         {
             HandleSpriteDirection();
         }
@@ -44,7 +43,7 @@ public class IsometricPlayerMovement : MonoBehaviour
         right.y = 0;
         right.Normalize();
 
-        Vector3 moveDirection = (forward * inputDirection.y + right * inputDirection.x).normalized;
+        Vector3 moveDirection = (forward * InputDirection.y + right * InputDirection.x).normalized;
         Vector3 targetVelocity = moveDirection * moveSpeed;
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
     }
@@ -55,7 +54,7 @@ public class IsometricPlayerMovement : MonoBehaviour
         float scaleX = Mathf.Abs(spriteTransform.localScale.x);
 
         spriteTransform.localScale = new Vector3(
-            scaleX * Mathf.Sign(inputDirection.x) * directionMultiplier,
+            scaleX * Mathf.Sign(InputDirection.x) * directionMultiplier,
             spriteTransform.localScale.y,
             spriteTransform.localScale.z
         );
