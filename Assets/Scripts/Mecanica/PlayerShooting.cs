@@ -13,10 +13,12 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] private float distanciaDoPontoDeTiro = 2.5f;
 
     private AimController aimController;
+    private Animator animator;
 
     void Awake()
     {
         aimController = GetComponent<AimController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -37,7 +39,7 @@ public class PlayerShooting : MonoBehaviour
 
         firePoint.position = new Vector3(
             playerCenterWithOffset.x + offset.x,
-            firePoint.position.y,
+            1.6f,
             playerCenterWithOffset.z + offset.z
         );
     }
@@ -46,6 +48,8 @@ public class PlayerShooting : MonoBehaviour
     {
         Vector3 aimDirection = aimController.AimDirection;
         if (aimDirection == Vector3.zero) return;
+
+        animator.SetTrigger("Shoot");
 
         firePoint.rotation = Quaternion.LookRotation(aimDirection);
 

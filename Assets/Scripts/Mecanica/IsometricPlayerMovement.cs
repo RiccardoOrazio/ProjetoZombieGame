@@ -14,6 +14,7 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     public bool IsCurrentlyFacingRight { get; private set; }
     public Vector2 InputDirection { get; private set; }
+    public bool CanMove { get; set; } = true;
 
     private Rigidbody rb;
     private Animator animator;
@@ -25,11 +26,19 @@ public class IsometricPlayerMovement : MonoBehaviour
         IsCurrentlyFacingRight = spriteFacesRightByDefault;
         animator = GetComponentInChildren<Animator>();
         lastInputDirection = new Vector2(0, -1);
+        CanMove = true;
     }
 
     void Update()
     {
-        InputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if (!CanMove)
+        {
+            InputDirection = Vector2.zero;
+        }
+        else
+        {
+            InputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        }
 
         bool isMoving = InputDirection.magnitude > 0.1f;
         animator.SetBool("IsMoving", isMoving);
@@ -45,6 +54,12 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!CanMove)
+        {
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            return;
+        }
+
         var forward = Camera.main.transform.forward;
         forward.y = 0;
         forward.Normalize();
