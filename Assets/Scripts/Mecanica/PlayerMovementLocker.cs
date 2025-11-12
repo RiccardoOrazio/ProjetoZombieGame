@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovementLocker : StateMachineBehaviour
 {
     private Rigidbody rb;
+    private PlayerShooting playerShooting;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -25,6 +26,12 @@ public class PlayerMovementLocker : StateMachineBehaviour
         if (playerMovement != null)
         {
             playerMovement.CanMove = true;
+        }
+
+        playerShooting = animator.GetComponentInParent<PlayerShooting>();
+        if (playerShooting != null)
+        {
+            playerShooting.CanShoot = true;
         }
     }
 }

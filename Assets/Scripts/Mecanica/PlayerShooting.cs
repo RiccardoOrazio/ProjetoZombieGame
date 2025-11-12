@@ -10,7 +10,9 @@ public class PlayerShooting : MonoBehaviour
 
     [Header("Configurações do Tiro")]
     [SerializeField] private float projectileSpeed = 20f;
-    [SerializeField] private float distanciaDoPontoDeTiro = 2.5f;
+    [SerializeField] private float distanciaDoPontoTiro = 2.5f;
+
+    public bool CanShoot { get; set; } = true;
 
     private AimController aimController;
     private Animator animator;
@@ -19,13 +21,14 @@ public class PlayerShooting : MonoBehaviour
     {
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
+        CanShoot = true;
     }
 
     void Update()
     {
         PosicionarPontoDeTiro();
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && CanShoot)
         {
             Shoot();
         }
@@ -35,11 +38,11 @@ public class PlayerShooting : MonoBehaviour
     {
         Vector3 aimDirection = aimController.AimDirection;
         Vector3 playerCenterWithOffset = transform.position;
-        Vector3 offset = aimDirection * distanciaDoPontoDeTiro;
+        Vector3 offset = aimDirection * distanciaDoPontoTiro;
 
         firePoint.position = new Vector3(
             playerCenterWithOffset.x + offset.x,
-            1.6f,
+            1.55f,
             playerCenterWithOffset.z + offset.z
         );
     }
@@ -49,6 +52,7 @@ public class PlayerShooting : MonoBehaviour
         Vector3 aimDirection = aimController.AimDirection;
         if (aimDirection == Vector3.zero) return;
 
+        CanShoot = false;
         animator.SetTrigger("Shoot");
 
         firePoint.rotation = Quaternion.LookRotation(aimDirection);

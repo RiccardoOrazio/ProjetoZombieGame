@@ -14,24 +14,28 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     public bool IsCurrentlyFacingRight { get; private set; }
     public Vector2 InputDirection { get; private set; }
+    public Vector2 LastInputDirection { get; private set; }
     public bool CanMove { get; set; } = true;
 
     private Rigidbody rb;
     private Animator animator;
-    private Vector2 lastInputDirection;
+    private AimController aimController;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         IsCurrentlyFacingRight = spriteFacesRightByDefault;
         animator = GetComponentInChildren<Animator>();
-        lastInputDirection = new Vector2(0, -1);
+        aimController = GetComponent<AimController>();
+        LastInputDirection = new Vector2(0, -1);
         CanMove = true;
     }
 
     void Update()
     {
-        if (!CanMove)
+        bool isAiming = aimController.IsAiming;
+
+        if (!CanMove || isAiming)
         {
             InputDirection = Vector2.zero;
         }
@@ -45,16 +49,27 @@ public class IsometricPlayerMovement : MonoBehaviour
 
         if (isMoving)
         {
-            lastInputDirection = InputDirection.normalized;
+            LastInputDirection = InputDirection.normalized;
         }
 
-        animator.SetFloat("DirX", lastInputDirection.x);
-        animator.SetFloat("DirY", lastInputDirection.y);
+        Vector3 directionToAnimate = aimController.AimDirection;
+        var forward = Camera.main.transform.forward;
+        forward.y = 0;
+        forward.Normalize();
+        var right = Camera.main.transform.right;
+        right.y = 0;
+        right.Normalize();
+
+        float dirX = Vector3.Dot(directionToAnimate, right);
+        float dirY = Vector3.Dot(directionToAnimate, forward);
+
+        animator.SetFloat("DirX", dirX);
+        animator.SetFloat("DirY", dirY);
     }
 
     void FixedUpdate()
     {
-        if (!CanMove)
+        if (!CanMove || aimController.IsAiming)
         {
             rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
             return;
