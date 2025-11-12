@@ -16,21 +16,31 @@ public class IsometricPlayerMovement : MonoBehaviour
     public Vector2 InputDirection { get; private set; }
 
     private Rigidbody rb;
+    private Animator animator;
+    private Vector2 lastInputDirection;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         IsCurrentlyFacingRight = spriteFacesRightByDefault;
+        animator = GetComponentInChildren<Animator>();
+        lastInputDirection = new Vector2(0, -1);
     }
 
     void Update()
     {
         InputDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        if (InputDirection.x != 0)
+        bool isMoving = InputDirection.magnitude > 0.1f;
+        animator.SetBool("IsMoving", isMoving);
+
+        if (isMoving)
         {
-            HandleSpriteDirection();
+            lastInputDirection = InputDirection.normalized;
         }
+
+        animator.SetFloat("DirX", lastInputDirection.x);
+        animator.SetFloat("DirY", lastInputDirection.y);
     }
 
     void FixedUpdate()
@@ -46,26 +56,5 @@ public class IsometricPlayerMovement : MonoBehaviour
         Vector3 moveDirection = (forward * InputDirection.y + right * InputDirection.x).normalized;
         Vector3 targetVelocity = moveDirection * moveSpeed;
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
-    }
-
-    private void HandleSpriteDirection()
-    {
-        float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
-        float scaleX = Mathf.Abs(spriteTransform.localScale.x);
-
-        spriteTransform.localScale = new Vector3(
-            scaleX * Mathf.Sign(InputDirection.x) * directionMultiplier,
-            spriteTransform.localScale.y,
-            spriteTransform.localScale.z
-        );
-
-        if (spriteTransform.localScale.x > 0)
-        {
-            IsCurrentlyFacingRight = spriteFacesRightByDefault;
-        }
-        else
-        {
-            IsCurrentlyFacingRight = !spriteFacesRightByDefault;
-        }
     }
 }
