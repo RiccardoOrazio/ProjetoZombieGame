@@ -49,13 +49,33 @@ public class PlayerShooting : MonoBehaviour
 
     void Shoot()
     {
-        Vector3 aimDirection = aimController.AimDirection;
-        if (aimDirection == Vector3.zero) return;
+        Vector3 finalDirection;
+        Transform target = aimController.TargetedEnemy;
+
+        if (target != null)
+        {
+            Vector3 targetPosition = target.position;
+            Collider targetCollider = target.GetComponent<Collider>();
+            if (targetCollider != null)
+            {
+                targetPosition = targetCollider.bounds.center;
+            }
+
+            finalDirection = (targetPosition - firePoint.position).normalized;
+        }
+        else if (aimController.AimDirection.sqrMagnitude > 0.01f)
+        {
+            finalDirection = aimController.AimDirection;
+        }
+        else
+        {
+            return;
+        }
 
         CanShoot = false;
         animator.SetTrigger("Shoot");
 
-        firePoint.rotation = Quaternion.LookRotation(aimDirection);
+        firePoint.rotation = Quaternion.LookRotation(finalDirection);
 
         if (muzzleFlash != null)
         {
@@ -63,11 +83,11 @@ public class PlayerShooting : MonoBehaviour
         }
 
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-
         Rigidbody rb = projectile.GetComponent<Rigidbody>();
+
         if (rb != null)
         {
-            rb.linearVelocity = aimDirection * projectileSpeed;
+            rb.linearVelocity = finalDirection * projectileSpeed;
         }
     }
 }
