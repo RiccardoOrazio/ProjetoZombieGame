@@ -47,6 +47,8 @@ public class IsometricPlayerMovement : MonoBehaviour
         bool isMoving = InputDirection.magnitude > 0.1f;
         animator.SetBool("IsMoving", isMoving);
 
+        animator.SetBool("IsAiming", isAiming);
+
         if (isMoving)
         {
             LastInputDirection = InputDirection.normalized;

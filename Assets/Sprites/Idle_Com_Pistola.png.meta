@@ -1,0 +1,2325 @@
+fileFormatVersion: 2
+guid: 1ed63619bc064524ea5f2ac6a9f11be8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a82b482dc33fd4f8a87bc75834dea0
+      internalID: 1740565994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 418
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1112d7ca37591e4db964c55fecbba98
+      internalID: 1939965202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_2
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d079c470f7274d81025ccda7b8b10
+      internalID: 259864572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_3
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e968b0b2fe6f49814e83b69d0e47a
+      internalID: 460645789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_4
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 418
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca248a6953449c4794967ad4c7af41f
+      internalID: -973759227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_5
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e91593d0b8865648a6544762b1581fe
+      internalID: 305054032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_6
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c61978ec2cbb814395499034b7bfae7
+      internalID: -222614437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_7
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 418
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89643185e8d802548872bd544445c472
+      internalID: -354617350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_8
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a435c6a77fe1e7c4eb5db47e63ff2e27
+      internalID: -1504085259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_9
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1e2cda2977f0748ab6322fbacd337f
+      internalID: 67761890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_10
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 418
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4783852244dbd43bc067e7419ff8e7
+      internalID: -895771320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_11
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 418
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e12f3148288ed49930bd996b174cbd
+      internalID: 1712458689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33ea0d76157184187e8265a01cfdfe
+      internalID: -483518662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 362
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4dc223cd4097b4ab5cd9daf3c8300e
+      internalID: 464575399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_14
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 362
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e9f84e96da8e14f9be289faffdcd79
+      internalID: -93711099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_15
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe68e05acf0e8c48bfb59d9ca038b0f
+      internalID: 668304268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_16
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15306f0116f77704ebee77bec87a3c96
+      internalID: 527849542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_17
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 362
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c7fb136841f13489455ec09044ea84
+      internalID: 1968448569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_18
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7166597f29c30d45bd5308e92667bf4
+      internalID: 1003711989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_19
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9ce46e6b8ec124587bcf476f331976
+      internalID: -838343959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_20
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 362
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb188ec1f0bf5b448a3b5afeb7bd86e8
+      internalID: -960821969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_21
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 362
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a708bcf7abb0479596afb1bf87463
+      internalID: 96457957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_22
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 362
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780de18a81204b4683121ac8535b741
+      internalID: 539548266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_23
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 362
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f73c6600e1c734f8f567695179efec
+      internalID: 1223842042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7369dcaa2dd48e243acac7c6e3d1f1d5
+      internalID: -1165227376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 304
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093d5b189bf0d1645ac51149bf353d1a
+      internalID: -64459317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_26
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 304
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac5fc54d6926fe4e81153cf7e1fd72a
+      internalID: -401144444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_27
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d017efeaa2983f94f868873c29f489f2
+      internalID: 1047084954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_28
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a3c58f3087634893ef8a746d29b45
+      internalID: 2125223192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_29
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 304
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7989bf23243c82c49853701b8570a78d
+      internalID: -2134538252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_30
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e4a5d0fc70e049ad4e8f1a014c23b
+      internalID: 585125689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_31
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa607f075e3382d4f868c0c420a18b08
+      internalID: 1812999558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_32
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 304
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0306df19a5882b246899632ca19c5c77
+      internalID: 2113515854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_33
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 304
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687dcef02052a914c90bb4b9b688c02f
+      internalID: -2088627029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_34
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 304
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a1fc326d5f2144a997d3c69c3b70d
+      internalID: -1294957671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_35
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 304
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1566c65af43104c9ef8d2a67f8bda1
+      internalID: 1871502528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 247
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afe7c6fbf598aa4f8fc3684959dea6d
+      internalID: 1115827268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_37
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb8446c2351f949b9a79455177a20d
+      internalID: 1246800608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_38
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fd15939c2c0ab429bf3a6758a5c9b7
+      internalID: -1230133463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_39
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 247
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9abacb87dd9114d89eda49db13938b
+      internalID: -1335655855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_40
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06dc99ec6568047afaa5a00fb21bd7
+      internalID: 1335009515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_41
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcdf2fda7714fe4aa1860b3ddf16a66
+      internalID: 1375482296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_42
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 247
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd4e590939cdb4459bc57c26a3a2f49
+      internalID: 1038841522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_43
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f31d098d5d5fa540b429720fd9dc0a1
+      internalID: -444441542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_44
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42063c167f7460408bc6b3c0ce68ef6
+      internalID: 1457402260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_45
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 247
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0cb9a73f97c1c4f96b3db4fc18df6d
+      internalID: -1888197099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_46
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6109556c0b8284f849fdc935384a83
+      internalID: 1641889361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_47
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 247
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ae6a1d2d2ccb6479bccbff3c1e57d2
+      internalID: 1617997583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_48
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 187
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f6bd69473476c4db4f796566e25ce7
+      internalID: -1298416019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_49
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3996630e6b1fa9a4dab80fa6640f0bd6
+      internalID: -1645441370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_50
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edcc926db1df23459018cd789a3b0c7
+      internalID: 360183204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_51
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 187
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0f725c830bac5449daf22ec1e31578
+      internalID: 525999317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_52
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dfe270a184e9549819c010d7352322
+      internalID: -750103278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_53
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e579f759da689d848b2d877d6adf0e04
+      internalID: 1544125005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_54
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 187
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086e6891a81526d46b59996176081bb0
+      internalID: -162008637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_55
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc1133e9dbe5644eaef34f53e0381b1
+      internalID: -1537855069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_56
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9690a771dd86d468a3deb8a9394a3e
+      internalID: 647540600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_57
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 187
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1558e650fa5fb4593ace837c5848d9
+      internalID: 2136735410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_58
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 187
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb9238f8bcb4bd479a4b27cd49a32f4
+      internalID: 1269029315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_59
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 187
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e9a8375a88644f85d790c41dc721f
+      internalID: -1832279926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_60
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 124
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d85bd0f92a694d8dd3a183554f368
+      internalID: -497657520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_61
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 124
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f5aacbc9c9e8a4fb6e76de59a91697
+      internalID: 1149701971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_62
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 124
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f604139751ef6b5489f9e60dfa6ac7cd
+      internalID: -989605311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_63
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 124
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20552a47cafb824caf620dcbf47455e
+      internalID: -15554647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_64
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 124
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde450d2e76301f43889dce6a2fc21f8
+      internalID: 380951228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_65
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 124
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eb1e4600f864d49839b2453afde721
+      internalID: 1289441337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_66
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 124
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e54f6ba5c73664299fd238e047dab7
+      internalID: 2113423685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_67
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 124
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e87158d60c5ed45be6065ee1a67e50
+      internalID: 3754280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_68
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 124
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3201b42f05f5c754fb01e82479e6d40b
+      internalID: -602170989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_69
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 124
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b745e1ba3c3d0db4591fb2c33255330b
+      internalID: 344775078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_70
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 124
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a6dbea33598bc40a4f60b3dce60b8d
+      internalID: 1146406917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_71
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 124
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bbb2baa73066a45857324d91f1a388
+      internalID: 1456136806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_72
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 61
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379ebe913448a164aacb57a479212098
+      internalID: -39998143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_73
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 61
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f22a5a373d5ba34eab24b500a4e8818
+      internalID: -123966209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_74
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 61
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c2215f6d840d64299cb3ea371faa84
+      internalID: 1496332295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_75
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 61
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b122608f24adb834188482ee09ef7fec
+      internalID: 46116360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_76
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 61
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4869b5a53cd62db4385c5702c3f24427
+      internalID: 2089370964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_77
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 61
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e24249370d2154479bc5192556b834a
+      internalID: -1850134065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_78
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 61
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3cf7870d48fd84b9c923409da758a3
+      internalID: -32421564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_79
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 61
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ccfa4a7ef265409102402be5cec6c
+      internalID: -2134698669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_80
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 61
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882f9d4c3d623f941a3df9d2737282b3
+      internalID: 1251047793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_81
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 61
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea326634a02d444a832e8d6edc06267
+      internalID: -956035947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_82
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 61
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432ca96b7bd51d4b8c23308a787a593
+      internalID: -1143793592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_83
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 61
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf2c1b00292f149b8870c1d21d94fa
+      internalID: 185713948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538749d36f0b59b47bc9c8ecd20132ef
+      internalID: 153830929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_85
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8230cb74ac7275f48b6ec0c0937494df
+      internalID: 1704308931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_86
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b421782e1d1ff48b8024339ea5f9dc
+      internalID: -612735951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_87
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afae5c45616a3fa4ba36aaf1dd61d4f3
+      internalID: 995151790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_88
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 2
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e43a78fe5b37f488a8c29f5144ccff
+      internalID: -299146104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_89
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876a596577b793840a929d6f68b348ea
+      internalID: -467552607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_90
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3fcac46d6e5bc4b90c1fbf56e76493
+      internalID: 2065835989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_91
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0111bc7fa9e641bfe64366ce99701
+      internalID: 1392142959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_92
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b97d2dd02e24645b4b8d7868535639
+      internalID: -330274225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_93
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 2
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ac79a618b91f64bbe9ae7098f6bfff
+      internalID: -1046937082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_94
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 2
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf27df6bde78b743ae88f3e273e96e8
+      internalID: 991327296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Com_Pistola_95
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 2
+        width: 19
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624bcd893cde0b34cb43c7696849e9b7
+      internalID: -1087968777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dac68cd8f67f94a47afc1b55d3e7c1f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Idle_Com_Pistola_0: 1740565994
+      Idle_Com_Pistola_1: 1939965202
+      Idle_Com_Pistola_10: -895771320
+      Idle_Com_Pistola_11: 1712458689
+      Idle_Com_Pistola_12: -483518662
+      Idle_Com_Pistola_13: 464575399
+      Idle_Com_Pistola_14: -93711099
+      Idle_Com_Pistola_15: 668304268
+      Idle_Com_Pistola_16: 527849542
+      Idle_Com_Pistola_17: 1968448569
+      Idle_Com_Pistola_18: 1003711989
+      Idle_Com_Pistola_19: -838343959
+      Idle_Com_Pistola_2: 259864572
+      Idle_Com_Pistola_20: -960821969
+      Idle_Com_Pistola_21: 96457957
+      Idle_Com_Pistola_22: 539548266
+      Idle_Com_Pistola_23: 1223842042
+      Idle_Com_Pistola_24: -1165227376
+      Idle_Com_Pistola_25: -64459317
+      Idle_Com_Pistola_26: -401144444
+      Idle_Com_Pistola_27: 1047084954
+      Idle_Com_Pistola_28: 2125223192
+      Idle_Com_Pistola_29: -2134538252
+      Idle_Com_Pistola_3: 460645789
+      Idle_Com_Pistola_30: 585125689
+      Idle_Com_Pistola_31: 1812999558
+      Idle_Com_Pistola_32: 2113515854
+      Idle_Com_Pistola_33: -2088627029
+      Idle_Com_Pistola_34: -1294957671
+      Idle_Com_Pistola_35: 1871502528
+      Idle_Com_Pistola_36: 1115827268
+      Idle_Com_Pistola_37: 1246800608
+      Idle_Com_Pistola_38: -1230133463
+      Idle_Com_Pistola_39: -1335655855
+      Idle_Com_Pistola_4: -973759227
+      Idle_Com_Pistola_40: 1335009515
+      Idle_Com_Pistola_41: 1375482296
+      Idle_Com_Pistola_42: 1038841522
+      Idle_Com_Pistola_43: -444441542
+      Idle_Com_Pistola_44: 1457402260
+      Idle_Com_Pistola_45: -1888197099
+      Idle_Com_Pistola_46: 1641889361
+      Idle_Com_Pistola_47: 1617997583
+      Idle_Com_Pistola_48: -1298416019
+      Idle_Com_Pistola_49: -1645441370
+      Idle_Com_Pistola_5: 305054032
+      Idle_Com_Pistola_50: 360183204
+      Idle_Com_Pistola_51: 525999317
+      Idle_Com_Pistola_52: -750103278
+      Idle_Com_Pistola_53: 1544125005
+      Idle_Com_Pistola_54: -162008637
+      Idle_Com_Pistola_55: -1537855069
+      Idle_Com_Pistola_56: 647540600
+      Idle_Com_Pistola_57: 2136735410
+      Idle_Com_Pistola_58: 1269029315
+      Idle_Com_Pistola_59: -1832279926
+      Idle_Com_Pistola_6: -222614437
+      Idle_Com_Pistola_60: -497657520
+      Idle_Com_Pistola_61: 1149701971
+      Idle_Com_Pistola_62: -989605311
+      Idle_Com_Pistola_63: -15554647
+      Idle_Com_Pistola_64: 380951228
+      Idle_Com_Pistola_65: 1289441337
+      Idle_Com_Pistola_66: 2113423685
+      Idle_Com_Pistola_67: 3754280
+      Idle_Com_Pistola_68: -602170989
+      Idle_Com_Pistola_69: 344775078
+      Idle_Com_Pistola_7: -354617350
+      Idle_Com_Pistola_70: 1146406917
+      Idle_Com_Pistola_71: 1456136806
+      Idle_Com_Pistola_72: -39998143
+      Idle_Com_Pistola_73: -123966209
+      Idle_Com_Pistola_74: 1496332295
+      Idle_Com_Pistola_75: 46116360
+      Idle_Com_Pistola_76: 2089370964
+      Idle_Com_Pistola_77: -1850134065
+      Idle_Com_Pistola_78: -32421564
+      Idle_Com_Pistola_79: -2134698669
+      Idle_Com_Pistola_8: -1504085259
+      Idle_Com_Pistola_80: 1251047793
+      Idle_Com_Pistola_81: -956035947
+      Idle_Com_Pistola_82: -1143793592
+      Idle_Com_Pistola_83: 185713948
+      Idle_Com_Pistola_84: 153830929
+      Idle_Com_Pistola_85: 1704308931
+      Idle_Com_Pistola_86: -612735951
+      Idle_Com_Pistola_87: 995151790
+      Idle_Com_Pistola_88: -299146104
+      Idle_Com_Pistola_89: -467552607
+      Idle_Com_Pistola_9: 67761890
+      Idle_Com_Pistola_90: 2065835989
+      Idle_Com_Pistola_91: 1392142959
+      Idle_Com_Pistola_92: -330274225
+      Idle_Com_Pistola_93: -1046937082
+      Idle_Com_Pistola_94: 991327296
+      Idle_Com_Pistola_95: -1087968777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
