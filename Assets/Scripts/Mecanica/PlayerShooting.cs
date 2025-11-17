@@ -1,7 +1,5 @@
 using UnityEngine;
 using UnityEngine.VFX;
-using TMPro;
-using System.Collections;
 
 public class PlayerShooting : MonoBehaviour
 {
@@ -14,67 +12,25 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] private float projectileSpeed = 20f;
     [SerializeField] private float distanciaDoPontoTiro = 2.5f;
 
-    [Header("Configurações de Munição")]
-    [SerializeField] private int clipSize = 8;
-    [SerializeField] private int maxAmmo = 32;
-    [SerializeField] private float reloadTime = 1.5f;
-
-    [Header("Referências da UI")]
-    [SerializeField] private TextMeshProUGUI ammoText;
-
     public bool CanShoot { get; set; } = true;
 
     private AimController aimController;
     private Animator animator;
 
-    private int currentClipAmmo;
-    private int currentTotalAmmo;
-    private bool isReloading = false;
-
     void Awake()
     {
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
-    }
-
-    void Start()
-    {
-        currentClipAmmo = clipSize;
-        currentTotalAmmo = maxAmmo;
-        isReloading = false;
         CanShoot = true;
-        UpdateAmmoUI();
     }
 
     void Update()
     {
         PosicionarPontoDeTiro();
 
-        if (isReloading)
-        {
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.R) && currentClipAmmo < clipSize && currentTotalAmmo > 0)
-        {
-            StartReload();
-            return;
-        }
-
         if (Input.GetMouseButtonDown(0) && CanShoot)
         {
-            if (currentClipAmmo > 0)
-            {
-                Shoot();
-            }
-            else if (currentTotalAmmo > 0)
-            {
-                StartReload();
-            }
-            else
-            {
-                Debug.Log("CLIQUE! (Sem munição)");
-            }
+            Shoot();
         }
     }
 
@@ -91,38 +47,8 @@ public class PlayerShooting : MonoBehaviour
         );
     }
 
-    private void StartReload()
-    {
-        if (isReloading) return;
-
-        StartCoroutine(ReloadSequence());
-    }
-
-    private IEnumerator ReloadSequence()
-    {
-        isReloading = true;
-        CanShoot = false;
-        Debug.Log("Recarregando...");
-
-        yield return new WaitForSeconds(reloadTime);
-
-        int ammoNeeded = clipSize - currentClipAmmo; 
-        int ammoToReload = Mathf.Min(ammoNeeded, currentTotalAmmo);
-
-        currentClipAmmo += ammoToReload;
-        currentTotalAmmo -= ammoToReload;
-
-        isReloading = false;
-        CanShoot = true; 
-        UpdateAmmoUI();
-        Debug.Log("Recarga completa!");
-    }
-
     void Shoot()
     {
-        currentClipAmmo--;
-        UpdateAmmoUI();
-
         Vector3 finalDirection;
         Transform target = aimController.TargetedEnemy;
 
@@ -146,7 +72,7 @@ public class PlayerShooting : MonoBehaviour
             return;
         }
 
-        CanShoot = false; 
+        CanShoot = false;
         animator.SetTrigger("Shoot");
 
         firePoint.rotation = Quaternion.LookRotation(finalDirection);
@@ -162,14 +88,6 @@ public class PlayerShooting : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = finalDirection * projectileSpeed;
-        }
-    }
-
-    private void UpdateAmmoUI()
-    {
-        if (ammoText != null)
-        {
-            ammoText.text = $"{currentClipAmmo} / {currentTotalAmmo}";
         }
     }
 }
