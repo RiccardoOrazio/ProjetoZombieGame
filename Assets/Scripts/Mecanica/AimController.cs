@@ -43,9 +43,9 @@ public class AimController : MonoBehaviour
             TargetedEnemy = null;
             Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out RaycastHit hit, 100f))
+            if (Physics.Raycast(ray, out RaycastHit hit, 100f, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Collide))
             {
-                if (hit.collider.CompareTag("Inimigo"))
+                newTargetComponent = hit.collider.GetComponentInParent<NpcHealth>();
                 {
                     newTargetComponent = hit.collider.GetComponent<NpcHealth>();
                     if (newTargetComponent != null)

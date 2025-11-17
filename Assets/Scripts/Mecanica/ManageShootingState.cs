@@ -18,11 +18,4 @@ public class ManageShootingState : StateMachineBehaviour
         }
     }
 
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        if (playerShooting != null)
-        {
-            playerShooting.CanShoot = false;
-        }
-    }
 }
