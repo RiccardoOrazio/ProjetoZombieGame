@@ -88,11 +88,14 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   spriteTransform: {fileID: 6390048432161713406}
   attackPoint: {fileID: 8935979116752846946}
-  moveSpeed: 3
+  moveSpeed: 2
   detectionRadius: 7.7
-  attackRadius: 2.25
+  attackRadius: 1.75
   attackPointDistance: 1.5
-  attackCooldown: 1.5
+  attackCooldown: 3
+  attackDamage: 25
+  attackHitboxRadius: 0.5
+  attackWindUpTime: 0.8
   spriteFacesRightByDefault: 0
 --- !u!54 &5755010884209080498
 Rigidbody:

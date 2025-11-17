@@ -15,6 +15,11 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float attackPointDistance = 1.5f;
     [SerializeField] private float attackCooldown = 1.5f;
 
+    [Header("Configurações de Ataque")]
+    [SerializeField] private int attackDamage = 10;
+    [SerializeField] private float attackHitboxRadius = 0.5f;
+    [SerializeField] private float attackWindUpTime = 0.8f; // NOVO: Tempo de preparação antes de atacar
+
     [Header("Configurações do Sprite")]
     [SerializeField] private bool spriteFacesRightByDefault = true;
 
@@ -24,6 +29,7 @@ public class EnemyAI : MonoBehaviour
     private Vector3 aimDirection = Vector3.forward;
     private bool shouldChase = false;
     private float distanceToPlayer;
+    private float windUpTimer = 0f; // NOVO: Timer para o "wind-up"
 
     void Awake()
     {
@@ -72,17 +78,28 @@ public class EnemyAI : MonoBehaviour
 
             if (distanceToPlayer <= attackRadius)
             {
+                // --- LÓGICA DE ATAQUE ATUALIZADA ---
                 shouldChase = false;
-                HandleAttack();
+
+                // 1. Começa a contar o tempo de preparação
+                windUpTimer += Time.deltaTime;
+
+                // 2. Só tenta atacar se o tempo de preparação terminou
+                if (windUpTimer >= attackWindUpTime)
+                {
+                    HandleAttack(); // HandleAttack() agora só é chamado após o wind-up
+                }
             }
             else
             {
                 shouldChase = true;
+                windUpTimer = 0f; // Reseta o timer de preparação se o player sair do raio
             }
         }
         else
         {
             shouldChase = false;
+            windUpTimer = 0f; // Reseta o timer de preparação se o player sair do raio
         }
 
         if (animator != null)
@@ -140,17 +157,23 @@ public class EnemyAI : MonoBehaviour
         if (Time.time > lastAttackTime + attackCooldown)
         {
             lastAttackTime = Time.time;
+            windUpTimer = 0f;
 
-            Debug.Log("Inimigo atacou na direção: " + aimDirection);
             if (animator != null) animator.SetTrigger("Attack");
 
-            Collider[] hits = Physics.OverlapSphere(attackPoint.position, 0.5f);
+            Collider[] hits = Physics.OverlapSphere(attackPoint.position, attackHitboxRadius);
+
             foreach (var hit in hits)
             {
                 if (hit.CompareTag("Player"))
                 {
-                    Debug.Log("Inimigo ACERTOU o Player!");
-                    break;
+                    PlayerHealth playerHealth = hit.GetComponent<PlayerHealth>();
+                    if (playerHealth != null)
+                    {
+                        playerHealth.TakeDamage(attackDamage);
+                        Debug.Log("Inimigo ACERTOU o Player!");
+                        break;
+                    }
                 }
             }
         }
@@ -193,7 +216,7 @@ public class EnemyAI : MonoBehaviour
         if (attackPoint != null)
         {
             Gizmos.color = Color.magenta;
-            Gizmos.DrawWireSphere(attackPoint.position, 0.5f);
+            Gizmos.DrawWireSphere(attackPoint.position, attackHitboxRadius);
         }
     }
 }
