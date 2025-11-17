@@ -2,14 +2,30 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    [Header("Configurações do Projétil")]
+    [SerializeField] private float maxLifetime = 5f;
+    [SerializeField] private int damage = 1;
+
+    void Start()
+    {
+        Destroy(gameObject, maxLifetime);
+    }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent<NpcHealth>(out NpcHealth npcHealth))
+
+        if (other.gameObject.CompareTag("Inimigo"))
         {
-            npcHealth.TakeDamage(1); 
+            NpcHealth npcHealth = other.gameObject.GetComponent<NpcHealth>();
+            if (npcHealth != null)
+            {
+                npcHealth.TakeDamage(damage);
+            }
         }
 
-        Destroy(gameObject);
+        if (!other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
