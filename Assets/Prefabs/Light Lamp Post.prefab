@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9003412774282846021}
   - component: {fileID: 6063432153456567823}
   - component: {fileID: 7277844803932832411}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 2132181291106560411}
   - component: {fileID: 5603879280644921316}
   - component: {fileID: 8830732197600711134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 8439890031036646242}
   - component: {fileID: 3481520172255048572}
   - component: {fileID: 7554218453250301955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 8395474990876257821}
   - component: {fileID: 6811429756142407036}
   - component: {fileID: 6675564762332708898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light Lamp Post
   m_TagString: Untagged
   m_Icon: {fileID: 0}

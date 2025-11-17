@@ -18,10 +18,15 @@ public class EnemyAI : MonoBehaviour
     [Header("Configurações de Ataque")]
     [SerializeField] private int attackDamage = 10;
     [SerializeField] private float attackHitboxRadius = 0.5f;
-    [SerializeField] private float attackWindUpTime = 0.8f; // NOVO: Tempo de preparação antes de atacar
+    [SerializeField] private float attackWindUpTime = 0.8f;
 
     [Header("Configurações do Sprite")]
     [SerializeField] private bool spriteFacesRightByDefault = true;
+
+    [Header("Configurações de Desvio (NOVO)")]
+    [SerializeField] private LayerMask obstacleLayer;
+    [SerializeField] private float obstacleRayLength = 1.5f;
+    [SerializeField] private float bodyRadius = 0.5f;
 
     private Rigidbody rb;
     private Animator animator;
@@ -29,7 +34,7 @@ public class EnemyAI : MonoBehaviour
     private Vector3 aimDirection = Vector3.forward;
     private bool shouldChase = false;
     private float distanceToPlayer;
-    private float windUpTimer = 0f; // NOVO: Timer para o "wind-up"
+    private float windUpTimer = 0f;
 
     void Awake()
     {
@@ -78,28 +83,24 @@ public class EnemyAI : MonoBehaviour
 
             if (distanceToPlayer <= attackRadius)
             {
-                // --- LÓGICA DE ATAQUE ATUALIZADA ---
                 shouldChase = false;
-
-                // 1. Começa a contar o tempo de preparação
                 windUpTimer += Time.deltaTime;
 
-                // 2. Só tenta atacar se o tempo de preparação terminou
                 if (windUpTimer >= attackWindUpTime)
                 {
-                    HandleAttack(); // HandleAttack() agora só é chamado após o wind-up
+                    HandleAttack();
                 }
             }
             else
             {
                 shouldChase = true;
-                windUpTimer = 0f; // Reseta o timer de preparação se o player sair do raio
+                windUpTimer = 0f;
             }
         }
         else
         {
             shouldChase = false;
-            windUpTimer = 0f; // Reseta o timer de preparação se o player sair do raio
+            windUpTimer = 0f;
         }
 
         if (animator != null)
@@ -116,13 +117,34 @@ public class EnemyAI : MonoBehaviour
     {
         if (shouldChase)
         {
-            Vector3 targetVelocity = aimDirection * moveSpeed;
+            Vector3 idealDirection = aimDirection;
+            Vector3 finalDirection = CalculateAvoidanceDirection(idealDirection);
+            Vector3 targetVelocity = finalDirection * moveSpeed;
             rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
         }
         else
         {
             rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
         }
+    }
+
+    private Vector3 CalculateAvoidanceDirection(Vector3 idealDirection)
+    {
+        if (Physics.SphereCast(transform.position, bodyRadius, idealDirection, out RaycastHit hit, obstacleRayLength, obstacleLayer))
+        {
+            Vector3 slideDirection = Vector3.ProjectOnPlane(idealDirection, hit.normal);
+
+            if (slideDirection.sqrMagnitude < 0.01f)
+            {
+                Vector3 contourDirection = Vector3.Cross(Vector3.up, hit.normal);
+                return contourDirection.normalized;
+            }
+
+            Vector3 avoidanceForce = hit.normal * 0.1f;
+            return (slideDirection + avoidanceForce).normalized;
+        }
+
+        return idealDirection;
     }
 
     private void HandleAiming()
@@ -181,27 +203,21 @@ public class EnemyAI : MonoBehaviour
 
     private void HandleSpriteDirection()
     {
-        float horizontalDirection = 0f;
-
         if (rb.linearVelocity.sqrMagnitude > 0.1f)
         {
-            horizontalDirection = rb.linearVelocity.x;
-        }
-        else if (distanceToPlayer <= detectionRadius)
-        {
-            horizontalDirection = aimDirection.x;
-        }
+            float horizontalMovement = rb.linearVelocity.x;
 
-        if (Mathf.Abs(horizontalDirection) > 0.01f)
-        {
-            float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
-            float scaleX = Mathf.Abs(spriteTransform.localScale.x);
+            if (Mathf.Abs(horizontalMovement) > 0.01f)
+            {
+                float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
+                float scaleX = Mathf.Abs(spriteTransform.localScale.x);
 
-            spriteTransform.localScale = new Vector3(
-                scaleX * Mathf.Sign(horizontalDirection) * directionMultiplier,
-                spriteTransform.localScale.y,
-                spriteTransform.localScale.z
-            );
+                spriteTransform.localScale = new Vector3(
+                    scaleX * Mathf.Sign(horizontalMovement) * directionMultiplier,
+                    spriteTransform.localScale.y,
+                    spriteTransform.localScale.z
+                );
+            }
         }
     }
 
@@ -218,5 +234,10 @@ public class EnemyAI : MonoBehaviour
             Gizmos.color = Color.magenta;
             Gizmos.DrawWireSphere(attackPoint.position, attackHitboxRadius);
         }
+
+        Vector3 finalDirection = CalculateAvoidanceDirection(aimDirection);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawLine(transform.position, transform.position + finalDirection * obstacleRayLength);
+        Gizmos.DrawWireSphere(transform.position + finalDirection * obstacleRayLength, bodyRadius);
     }
 }

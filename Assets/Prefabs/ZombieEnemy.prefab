@@ -97,6 +97,11 @@ MonoBehaviour:
   attackHitboxRadius: 0.5
   attackWindUpTime: 0.8
   spriteFacesRightByDefault: 0
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  obstacleRayLength: 0.31
+  bodyRadius: 0.5
 --- !u!54 &5755010884209080498
 Rigidbody:
   m_ObjectHideFlags: 0

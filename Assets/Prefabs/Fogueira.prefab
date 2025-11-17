@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3605513448492016470}
   - component: {fileID: 6162901402990810780}
   - component: {fileID: 2435293572247749418}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fogueira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 4213521325916918286}
   - component: {fileID: 1346083767637093188}
   - component: {fileID: 2561415893151027152}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 3060463262262510621}
   - component: {fileID: 3803457505901426430}
   - component: {fileID: 6341590935025096426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FireVFX1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
