@@ -21,6 +21,8 @@ public class PlayerShooting : MonoBehaviour
 
     [Header("Referências da UI")]
     [SerializeField] private TextMeshProUGUI ammoText;
+    [SerializeField] private TextMeshProUGUI reloadText;
+    [SerializeField] private float reloadTextAnimationSpeed = 0.3f;
 
     public bool CanShoot { get; set; } = true;
 
@@ -44,10 +46,20 @@ public class PlayerShooting : MonoBehaviour
         isReloading = false;
         CanShoot = true;
         UpdateAmmoUI();
+
+        if (reloadText != null)
+        {
+            reloadText.gameObject.SetActive(false);
+        }
     }
 
     void Update()
     {
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            return;
+        }
+
         PosicionarPontoDeTiro();
 
         if (isReloading)
@@ -104,18 +116,47 @@ public class PlayerShooting : MonoBehaviour
         CanShoot = false;
         Debug.Log("Recarregando...");
 
+        if (reloadText != null)
+        {
+            reloadText.gameObject.SetActive(true);
+            StartCoroutine(AnimateReloadText());
+        }
+
         yield return new WaitForSeconds(reloadTime);
 
-        int ammoNeeded = clipSize - currentClipAmmo; 
+        int ammoNeeded = clipSize - currentClipAmmo;
         int ammoToReload = Mathf.Min(ammoNeeded, currentTotalAmmo);
 
         currentClipAmmo += ammoToReload;
         currentTotalAmmo -= ammoToReload;
 
         isReloading = false;
-        CanShoot = true; 
+        CanShoot = true;
         UpdateAmmoUI();
         Debug.Log("Recarga completa!");
+
+        if (reloadText != null)
+        {
+            reloadText.gameObject.SetActive(false);
+        }
+    }
+
+    private IEnumerator AnimateReloadText()
+    {
+        string baseText = "Recarregando";
+        while (isReloading)
+        {
+            reloadText.text = baseText + ".";
+            yield return new WaitForSeconds(reloadTextAnimationSpeed);
+            if (!isReloading) break;
+
+            reloadText.text = baseText + "..";
+            yield return new WaitForSeconds(reloadTextAnimationSpeed);
+            if (!isReloading) break;
+
+            reloadText.text = baseText + "...";
+            yield return new WaitForSeconds(reloadTextAnimationSpeed);
+        }
     }
 
     void Shoot()
@@ -146,7 +187,7 @@ public class PlayerShooting : MonoBehaviour
             return;
         }
 
-        CanShoot = false; 
+        CanShoot = false;
         animator.SetTrigger("Shoot");
 
         firePoint.rotation = Quaternion.LookRotation(finalDirection);

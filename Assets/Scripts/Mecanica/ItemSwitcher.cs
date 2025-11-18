@@ -14,6 +14,11 @@ public class ItemSwitcher : MonoBehaviour
 
     void Update()
     {
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SwitchToPistol();

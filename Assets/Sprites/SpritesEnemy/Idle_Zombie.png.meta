@@ -1,0 +1,2049 @@
+fileFormatVersion: 2
+guid: 7434862b2c88a284e812c408fcf893c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Zombie_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084a0ef1340b5bc40ac78000baf0650c
+      internalID: -1445724368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 422
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7766a605e6c044582ba7ade192481f
+      internalID: -191963184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ef6a74856ac3f49b5a47d09d95e363
+      internalID: -1269654282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 422
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21389784e694994f91e406bc4ab2da0
+      internalID: 352045201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 422
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49a47563935cfa4b93e00675b1793b6
+      internalID: -1738334470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_5
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 422
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832599190afc9ac48951153dc7acf6b1
+      internalID: -2048916228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_6
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 422
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d55d7bf457c7224bb78c56aa366d9cc
+      internalID: 192818657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_7
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 422
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c7252dd0727d4ab644296488c32bb
+      internalID: 1367617248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_8
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 422
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37fd01612d7f61448b538e76fec584f
+      internalID: 2035604396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_9
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 422
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1efd70a8fb4c246b89df556e576cf4
+      internalID: 325822132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_10
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 422
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062533e99630ab649bb7c149776ba04a
+      internalID: 1858628651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_11
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 422
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83945b7d1d259ea458148fa8501252bd
+      internalID: -458766923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6aba255a1af03438266d94344af529
+      internalID: 583733807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5769c87d4a56f5d4a9c57b55fa0876f4
+      internalID: -1510670752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f87d9e5225f7f41a5cc76f8084421c
+      internalID: 2146252345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 362
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807cadf7301eab942b48166eb574b0da
+      internalID: 1755257954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_16
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 362
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d54b05a9f485f4b93906d61d7c4529
+      internalID: 1711195938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 362
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fff72739eed5a4d8ed78b541d01f44
+      internalID: -956706615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_18
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 362
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed38c55e637350743820784f8d8d7c12
+      internalID: -2059738417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_19
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 362
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0156167a9e343f4eba8f5e6e2e482c6
+      internalID: -1160241839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_20
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 362
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4ba14443a7ed489e38ed662c4b18f
+      internalID: 1501297402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_21
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 362
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02f2c6b27c08b24a94e013ddebb3854
+      internalID: -369738068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_22
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ca2bbdfdf48a4459740a242d49632d
+      internalID: -1538824445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_23
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d853523ab3dcbf43920a4880585a5c8
+      internalID: 1177347174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f9e936965d3d8468412acf88a07ab0
+      internalID: -922321105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af9bf11460d5c0408cf45545ec48f3f
+      internalID: -1789680728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_26
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0fdc6af15a8de4e933b6ec93ab4011
+      internalID: 1679524996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa277b1e3cc75064ea7157c94b54b949
+      internalID: 1823478739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_28
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab6319066e1d054d8060b21e2699500
+      internalID: 1029081404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 306
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f9f4fc29f7bfc4395f19dd64e73653
+      internalID: -156118823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_30
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 306
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece57e424ddfeed4a85bbda86fff3c36
+      internalID: 1143865606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_31
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 306
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcb32586cb4b44189ce26e4c8ac21a
+      internalID: -3018922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_32
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e43c5b2ff61c9a42965766380c5bdca
+      internalID: 1428383352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_33
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 306
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a83f6d484270748a5d1da3dd6b866b
+      internalID: 1151625848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_34
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcd31eba3c9f794492bf0afa1b0fbcf
+      internalID: 229549711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_35
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 306
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ad1a426da05064eaca87c33c6e6acb
+      internalID: -1675881204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f03c5aedf881418e01d8e82c798b7
+      internalID: 188809714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3342444e8c6a66c48a7928c576dc8a1d
+      internalID: -2103235880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_38
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25d6d70a65ebfc408f8913a16237885
+      internalID: 1198192679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_39
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 242
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d890de4d07377c04aa227062040e2b4c
+      internalID: 1578356387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_40
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 242
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f093c2b6941847b246573ad983d3a
+      internalID: 300257506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_41
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 242
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af162e3781fea84fb3c4612e1cdb774
+      internalID: 70256850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_42
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 242
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f144a72ea0c8141bdca76c6793da6b
+      internalID: -447249920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_43
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 242
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e351bb5e89bc147981a1fe6c3c2867
+      internalID: -1412273852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_44
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 242
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1addfdf43648e614fb659f8504814660
+      internalID: -1486651659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_45
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 242
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d041426fc7b7f4b934a6e2bba139e8
+      internalID: 524637500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_46
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 242
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41909427031bb6c45ac38a30b2ea277d
+      internalID: 2051441830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_47
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 242
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968b94caa0293f3488b6db9a419b74e9
+      internalID: -2067499509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 182
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea4598bccb73fe4caad2f8e51f658af
+      internalID: -1037928356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 182
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5226372479aad947858a2b0ad26c61f
+      internalID: 1497074547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_50
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 182
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0520f9284974b624aa55e9978fcb9084
+      internalID: -1883044226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_51
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 182
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c294775fc2a3ffa43a46a163e54a5f67
+      internalID: 1728099593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_52
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 182
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adece11df689be4cb4534e68b516891
+      internalID: 657995511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_53
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 182
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08998310160788449bf1bfd0ebc74182
+      internalID: -746861830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_54
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 182
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308333fde530c7b489679e8290a3b4ec
+      internalID: -1147185648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_55
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 182
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e1e047bd37eba458545132aaa237c5
+      internalID: -1492608877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_56
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 182
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4a9fe52df9cd3488bd5c7e024ff218
+      internalID: 1403753271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_57
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 182
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68421de00679b04883f50039d32472c
+      internalID: -660984275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_58
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 182
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4dab8f818aba941ae9ed977c716e48
+      internalID: 267924783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_59
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 182
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329e0909f3f644448dc94a097f700d3
+      internalID: 1536538871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 66
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71400f8876ae3247ae4971ca5bb0be6
+      internalID: 639453179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_61
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 66
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89def058ab76247bfa2a78aa4c88a1
+      internalID: 1387737007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_62
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 66
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3232b84e7ffc54e88bdec4c89922fa
+      internalID: -1613989296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_63
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 66
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eebb61f301718a4a9c0ef4cdc1d266f
+      internalID: -807316452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_64
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97a7aff679b60441a35a330e6c15193
+      internalID: -1900731666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_65
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46e7a307be312d4ca4c85816744b33d
+      internalID: 1494239771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_66
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b706f993f7d694181c4e9bc10d6994
+      internalID: -1370122991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_67
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc749b38d062d7043a05fc5af7aa684c
+      internalID: 1132259417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_68
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 66
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ab84202482d364a8ec86ae869be668
+      internalID: -1285161011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_69
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 66
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702019ce6f46c6b41882646863af90b5
+      internalID: -1468513634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_70
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 66
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a97a0415fc8f64a897c83e3d816573
+      internalID: -1853975801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_71
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 66
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e9998a3afcab4badb641f93fde53b
+      internalID: 2094746274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_72
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bff152d32fec2249bb4d193ba2e01a4
+      internalID: 1983857303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da57fc9d99ddaf42ae8aff3c174ce47
+      internalID: -1713980643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_74
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200960ce5eed34d48b4b2252970aa3a0
+      internalID: 1173166774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_75
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 2
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f066a5c961fef2d4f9f86b0e0ff85a46
+      internalID: -1007381242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_76
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18da34051f6e67a479195beeaf586b51
+      internalID: 466946277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_77
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 2
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186b9b29899e554ebf5b5a7bdf21f84
+      internalID: 1552948463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_78
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 2
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1fdb9520a011a42ad453ff7a38ecde
+      internalID: -465576995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_79
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 2
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3084449d41a82441bfc57a50539645a
+      internalID: 1272848412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_80
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 2
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d619cd3ae67074bb53eb7e79dd716c
+      internalID: -1125096989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_81
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa653ae509c324cb25f643d630d53e
+      internalID: -2058337520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_82
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 2
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4d419b488a1048ae69ab0733b434f
+      internalID: 716507326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Zombie_83
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 2
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6c5a1161ddf4543a32b8b2a4b4340a
+      internalID: 364041850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 56bd3796221887d4d80a0aef1973e7dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Idle_Zombie_0: -1445724368
+      Idle_Zombie_1: -191963184
+      Idle_Zombie_10: 1858628651
+      Idle_Zombie_11: -458766923
+      Idle_Zombie_12: 583733807
+      Idle_Zombie_13: -1510670752
+      Idle_Zombie_14: 2146252345
+      Idle_Zombie_15: 1755257954
+      Idle_Zombie_16: 1711195938
+      Idle_Zombie_17: -956706615
+      Idle_Zombie_18: -2059738417
+      Idle_Zombie_19: -1160241839
+      Idle_Zombie_2: -1269654282
+      Idle_Zombie_20: 1501297402
+      Idle_Zombie_21: -369738068
+      Idle_Zombie_22: -1538824445
+      Idle_Zombie_23: 1177347174
+      Idle_Zombie_24: -922321105
+      Idle_Zombie_25: -1789680728
+      Idle_Zombie_26: 1679524996
+      Idle_Zombie_27: 1823478739
+      Idle_Zombie_28: 1029081404
+      Idle_Zombie_29: -156118823
+      Idle_Zombie_3: 352045201
+      Idle_Zombie_30: 1143865606
+      Idle_Zombie_31: -3018922
+      Idle_Zombie_32: 1428383352
+      Idle_Zombie_33: 1151625848
+      Idle_Zombie_34: 229549711
+      Idle_Zombie_35: -1675881204
+      Idle_Zombie_36: 188809714
+      Idle_Zombie_37: -2103235880
+      Idle_Zombie_38: 1198192679
+      Idle_Zombie_39: 1578356387
+      Idle_Zombie_4: -1738334470
+      Idle_Zombie_40: 300257506
+      Idle_Zombie_41: 70256850
+      Idle_Zombie_42: -447249920
+      Idle_Zombie_43: -1412273852
+      Idle_Zombie_44: -1486651659
+      Idle_Zombie_45: 524637500
+      Idle_Zombie_46: 2051441830
+      Idle_Zombie_47: -2067499509
+      Idle_Zombie_48: -1037928356
+      Idle_Zombie_49: 1497074547
+      Idle_Zombie_5: -2048916228
+      Idle_Zombie_50: -1883044226
+      Idle_Zombie_51: 1728099593
+      Idle_Zombie_52: 657995511
+      Idle_Zombie_53: -746861830
+      Idle_Zombie_54: -1147185648
+      Idle_Zombie_55: -1492608877
+      Idle_Zombie_56: 1403753271
+      Idle_Zombie_57: -660984275
+      Idle_Zombie_58: 267924783
+      Idle_Zombie_59: 1536538871
+      Idle_Zombie_6: 192818657
+      Idle_Zombie_60: 639453179
+      Idle_Zombie_61: 1387737007
+      Idle_Zombie_62: -1613989296
+      Idle_Zombie_63: -807316452
+      Idle_Zombie_64: -1900731666
+      Idle_Zombie_65: 1494239771
+      Idle_Zombie_66: -1370122991
+      Idle_Zombie_67: 1132259417
+      Idle_Zombie_68: -1285161011
+      Idle_Zombie_69: -1468513634
+      Idle_Zombie_7: 1367617248
+      Idle_Zombie_70: -1853975801
+      Idle_Zombie_71: 2094746274
+      Idle_Zombie_72: 1983857303
+      Idle_Zombie_73: -1713980643
+      Idle_Zombie_74: 1173166774
+      Idle_Zombie_75: -1007381242
+      Idle_Zombie_76: 466946277
+      Idle_Zombie_77: 1552948463
+      Idle_Zombie_78: -465576995
+      Idle_Zombie_79: 1272848412
+      Idle_Zombie_8: 2035604396
+      Idle_Zombie_80: -1125096989
+      Idle_Zombie_81: -2058337520
+      Idle_Zombie_82: 716507326
+      Idle_Zombie_83: 364041850
+      Idle_Zombie_9: 325822132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

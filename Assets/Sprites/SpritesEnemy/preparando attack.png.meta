@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: df2f9412fa365ea44824626355741743
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preparando attack_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.40036917, y: 0.4981556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8bd498952fec64ba721da02626eefa
+      internalID: 1794904603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 422
+        width: 42
+        height: 53
+      alignment: 9
+      pivot: {x: 0.44546655, y: 0.48976624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c350120dd19974bab8988ab1db8d37
+      internalID: -412596746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 422
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5942088, y: 0.49026027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c9b3ff76312aa4abd3df07ec0c6589
+      internalID: -2053622774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4b9b3ad25bdf94d9d086a62ffcd4bf
+      internalID: -504213041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 362
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3bcf3a24b3726479a69edfab5ca7e7
+      internalID: -1803757595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_5
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f3011d13afd9046851d674eded519a
+      internalID: -559250807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 306
+        width: 29
+        height: 49
+      alignment: 9
+      pivot: {x: 0.8291743, y: 0.5043808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00572ce320551a74688d061716754439
+      internalID: -219847795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 306
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: 0.78025347, y: 0.49574077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dffc37875708048a6d6007020f4105
+      internalID: -990508099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 306
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7184961, y: 0.4957045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e089901009c04aa4a34520980fa94
+      internalID: 1024008418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 38
+        height: 52
+      alignment: 9
+      pivot: {x: 0.32418874, y: 0.50225186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5237f05ec7198b4589c1d98d538abbd
+      internalID: 953717137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 38
+        height: 60
+      alignment: 9
+      pivot: {x: 0.31025454, y: 0.46936086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8318dab4f01045b55bea324e3604f
+      internalID: 154691092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 18
+        height: 60
+      alignment: 9
+      pivot: {x: 0.7018602, y: 0.45325166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f42f9d0e8f0fe488f3b103d0956e01
+      internalID: -1175136269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 183
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.58775836, y: 0.5479819}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aa68a7c1294974fb5e08d80fe21435
+      internalID: 557862627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 183
+        width: 42
+        height: 53
+      alignment: 9
+      pivot: {x: 0.56331015, y: 0.49405858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8bbe2047b1d7e4fa735494efbae345
+      internalID: 1393567577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 183
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.40005788, y: 0.4924112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37adf76903b810041937d0323865d92a
+      internalID: 1181386913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 67
+        width: 29
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2539227, y: 0.48995504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb28cb3c851e6e3439abe1760db22495
+      internalID: 2034727585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: 0.2454371, y: 0.5092858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e6be370c4eef4385e899f6ad4f2e3
+      internalID: 178904393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 67
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.263291, y: 0.49570537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7337ad44da458e4d8da3e92e597f4c8
+      internalID: 1575211428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 38
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6695065, y: 0.53007245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01052f7a0bd2ddc4f8715b537778167a
+      internalID: 384860500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3
+        width: 38
+        height: 60
+      alignment: 9
+      pivot: {x: 0.70062095, y: 0.46145806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad249e489623d64fbbdf5fa969f08d9
+      internalID: -300366955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack_20
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 3
+        width: 18
+        height: 60
+      alignment: 9
+      pivot: {x: 0.3386095, y: 0.45566308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25a5849c88e0904892f10bce0c6908d
+      internalID: -913637896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec7e6b9a8099cf94aa8ca674600338a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      preparando attack_0: 1794904603
+      preparando attack_1: -412596746
+      preparando attack_10: 154691092
+      preparando attack_11: -1175136269
+      preparando attack_12: 557862627
+      preparando attack_13: 1393567577
+      preparando attack_14: 1181386913
+      preparando attack_15: 2034727585
+      preparando attack_16: 178904393
+      preparando attack_17: 1575211428
+      preparando attack_18: 384860500
+      preparando attack_19: -300366955
+      preparando attack_2: -2053622774
+      preparando attack_20: -913637896
+      preparando attack_3: -504213041
+      preparando attack_4: -1803757595
+      preparando attack_5: -559250807
+      preparando attack_6: -219847795
+      preparando attack_7: -990508099
+      preparando attack_8: 1024008418
+      preparando attack_9: 953717137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

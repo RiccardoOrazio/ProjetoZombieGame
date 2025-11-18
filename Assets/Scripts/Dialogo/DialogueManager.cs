@@ -12,11 +12,12 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Configurações")]
     public float textSpeed;
-    public KeyCode advanceKey = KeyCode.Mouse1;
+    public KeyCode advanceKey = KeyCode.Mouse0;
 
     private string[] currentLines;
     private int index;
-    private bool dialogueIsActive = false;
+
+    public bool IsDialogueActive { get; private set; } = false;
 
     void Awake()
     {
@@ -43,7 +44,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (!dialogueIsActive) return;
+        if (!IsDialogueActive) return;
 
         if (Input.GetKeyDown(advanceKey))
         {
@@ -64,7 +65,7 @@ public class DialogueManager : MonoBehaviour
         if (lines == null || lines.Length == 0 || dialoguePanel == null) return;
 
         dialoguePanel.SetActive(true);
-        dialogueIsActive = true;
+        IsDialogueActive = true;
         currentLines = lines;
         index = 0;
         textComponent.text = string.Empty;
@@ -96,7 +97,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        dialogueIsActive = false;
+        IsDialogueActive = false;
         textComponent.text = string.Empty;
         if (dialoguePanel != null)
         {

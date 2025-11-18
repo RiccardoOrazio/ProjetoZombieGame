@@ -4,11 +4,11 @@ public class AimController : MonoBehaviour
 {
     public Vector3 AimDirection { get; private set; }
     public bool IsAiming { get; private set; }
-    public Transform TargetedEnemy { get; private set; } // Referência pública para o alvo
+    public Transform TargetedEnemy { get; private set; }
 
     private IsometricPlayerMovement playerMovement;
     private Camera mainCamera;
-    private NpcHealth currentTargetComponent; // Referência para o script do alvo
+    private NpcHealth currentTargetComponent;
 
     void Awake()
     {
@@ -25,6 +25,19 @@ public class AimController : MonoBehaviour
 
     void Update()
     {
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            IsAiming = false;
+
+            if (currentTargetComponent != null)
+            {
+                currentTargetComponent.SetTargeted(false);
+                currentTargetComponent = null;
+            }
+            TargetedEnemy = null;
+            return;
+        }
+
         IsAiming = Input.GetMouseButton(1);
 
         var forward = mainCamera.transform.forward;

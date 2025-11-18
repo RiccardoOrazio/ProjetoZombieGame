@@ -1,11 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyAI : MonoBehaviour
 {
     [Header("Referências")]
     [SerializeField] private Transform playerTransform;
-    [SerializeField] private Transform spriteTransform;
     [SerializeField] private Transform attackPoint;
 
     [Header("Configurações da IA")]
@@ -18,10 +18,8 @@ public class EnemyAI : MonoBehaviour
     [Header("Configurações de Ataque")]
     [SerializeField] private int attackDamage = 10;
     [SerializeField] private float attackHitboxRadius = 0.5f;
-    [SerializeField] private float attackWindUpTime = 0.8f;
-
-    [Header("Configurações do Sprite")]
-    [SerializeField] private bool spriteFacesRightByDefault = true;
+    [SerializeField] private float attackDamageDelay = 0.8f;
+    [SerializeField] private float attackMoveLockTime = 1.0f;
 
     [Header("Configurações de Desvio (NOVO)")]
     [SerializeField] private LayerMask obstacleLayer;
@@ -30,16 +28,17 @@ public class EnemyAI : MonoBehaviour
 
     private Rigidbody rb;
     private Animator animator;
+    private Camera mainCamera;
     private float lastAttackTime = -999f;
     private Vector3 aimDirection = Vector3.forward;
     private bool shouldChase = false;
     private float distanceToPlayer;
-    private float windUpTimer = 0f;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponentInChildren<Animator>();
+        mainCamera = Camera.main;
 
         if (playerTransform == null)
         {
@@ -55,52 +54,62 @@ public class EnemyAI : MonoBehaviour
             }
         }
 
-        if (spriteTransform == null)
-        {
-            Debug.LogError("IA do Inimigo: 'Sprite Transform' não definido!", this);
-            enabled = false;
-        }
         if (attackPoint == null)
         {
             Debug.LogError("IA do Inimigo: 'Attack Point' não definido!", this);
             enabled = false;
         }
 
-        aimDirection = spriteFacesRightByDefault ? Vector3.right : Vector3.left;
+        aimDirection = Vector3.forward;
     }
 
     void Update()
     {
         if (playerTransform == null) return;
 
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            shouldChase = false;
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+
+            if (animator != null)
+            {
+                animator.SetBool("IsMoving", false);
+            }
+            return;
+        }
+
         distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
 
-        if (distanceToPlayer <= detectionRadius)
+        bool isAttacking = Time.time < lastAttackTime + attackCooldown;
+        bool isLockedInPlace = Time.time < lastAttackTime + attackMoveLockTime;
+
+        if (isLockedInPlace)
+        {
+            shouldChase = false;
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            HandleAiming();
+            PositionAttackPoint();
+        }
+        else if (distanceToPlayer <= detectionRadius)
         {
             HandleAiming();
             PositionAttackPoint();
-            HandleSpriteDirection();
 
-            if (distanceToPlayer <= attackRadius)
+            if (distanceToPlayer <= attackRadius && !isAttacking)
             {
                 shouldChase = false;
-                windUpTimer += Time.deltaTime;
-
-                if (windUpTimer >= attackWindUpTime)
-                {
-                    HandleAttack();
-                }
+                rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+                HandleAttack();
             }
             else
             {
                 shouldChase = true;
-                windUpTimer = 0f;
             }
         }
         else
         {
             shouldChase = false;
-            windUpTimer = 0f;
         }
 
         if (animator != null)
@@ -108,8 +117,18 @@ public class EnemyAI : MonoBehaviour
             bool isMoving = rb.linearVelocity.magnitude > 0.1f;
             animator.SetBool("IsMoving", isMoving);
 
-            animator.SetFloat("DirX", aimDirection.x);
-            animator.SetFloat("DirY", aimDirection.z);
+            var forward = mainCamera.transform.forward;
+            forward.y = 0;
+            forward.Normalize();
+            var right = mainCamera.transform.right;
+            right.y = 0;
+            right.Normalize();
+
+            float dirX = Vector3.Dot(aimDirection, right);
+            float dirY = Vector3.Dot(aimDirection, forward);
+
+            animator.SetFloat("DirX", dirX);
+            animator.SetFloat("DirY", dirY);
         }
     }
 
@@ -179,44 +198,35 @@ public class EnemyAI : MonoBehaviour
         if (Time.time > lastAttackTime + attackCooldown)
         {
             lastAttackTime = Time.time;
-            windUpTimer = 0f;
 
             if (animator != null) animator.SetTrigger("Attack");
 
-            Collider[] hits = Physics.OverlapSphere(attackPoint.position, attackHitboxRadius);
-
-            foreach (var hit in hits)
-            {
-                if (hit.CompareTag("Player"))
-                {
-                    PlayerHealth playerHealth = hit.GetComponent<PlayerHealth>();
-                    if (playerHealth != null)
-                    {
-                        playerHealth.TakeDamage(attackDamage);
-                        Debug.Log("Inimigo ACERTOU o Player!");
-                        break;
-                    }
-                }
-            }
+            StartCoroutine(ApplyDamageAfterDelay(attackDamageDelay));
         }
     }
 
-    private void HandleSpriteDirection()
+    private IEnumerator ApplyDamageAfterDelay(float delay)
     {
-        if (rb.linearVelocity.sqrMagnitude > 0.1f)
+        yield return new WaitForSeconds(delay);
+
+        if (playerTransform == null) yield break;
+
+        float distanceToPlayerOnImpact = Vector3.Distance(transform.position, playerTransform.position);
+        if (distanceToPlayerOnImpact > attackRadius + 1.5f) yield break;
+
+        Collider[] hits = Physics.OverlapSphere(attackPoint.position, attackHitboxRadius);
+
+        foreach (var hit in hits)
         {
-            float horizontalMovement = rb.linearVelocity.x;
-
-            if (Mathf.Abs(horizontalMovement) > 0.01f)
+            if (hit.CompareTag("Player"))
             {
-                float directionMultiplier = spriteFacesRightByDefault ? 1f : -1f;
-                float scaleX = Mathf.Abs(spriteTransform.localScale.x);
-
-                spriteTransform.localScale = new Vector3(
-                    scaleX * Mathf.Sign(horizontalMovement) * directionMultiplier,
-                    spriteTransform.localScale.y,
-                    spriteTransform.localScale.z
-                );
+                PlayerHealth playerHealth = hit.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.TakeDamage(attackDamage);
+                    Debug.Log("Inimigo ACERTOU o Player!");
+                    break;
+                }
             }
         }
     }
@@ -235,9 +245,12 @@ public class EnemyAI : MonoBehaviour
             Gizmos.DrawWireSphere(attackPoint.position, attackHitboxRadius);
         }
 
-        Vector3 finalDirection = CalculateAvoidanceDirection(aimDirection);
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawLine(transform.position, transform.position + finalDirection * obstacleRayLength);
-        Gizmos.DrawWireSphere(transform.position + finalDirection * obstacleRayLength, bodyRadius);
+        if (mainCamera != null)
+        {
+            Vector3 finalDirection = CalculateAvoidanceDirection(aimDirection);
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawLine(transform.position, transform.position + finalDirection * obstacleRayLength);
+            Gizmos.DrawWireSphere(transform.position + finalDirection * obstacleRayLength, bodyRadius);
+        }
     }
 }

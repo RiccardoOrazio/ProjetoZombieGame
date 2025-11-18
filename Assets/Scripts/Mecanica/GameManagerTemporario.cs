@@ -8,6 +8,8 @@ public class GameManagerTemporario : MonoBehaviour
     [SerializeField] private GameObject winScreenPanel;
     [SerializeField] private int enemiesToWin = 3;
 
+    public bool isDialogueActive = false;
+
     private int enemiesKilled = 0;
 
     void Awake()

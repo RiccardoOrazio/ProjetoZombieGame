@@ -34,8 +34,9 @@ public class IsometricPlayerMovement : MonoBehaviour
     void Update()
     {
         bool isAiming = aimController.IsAiming;
+        bool dialogueActive = (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive);
 
-        if (!CanMove || isAiming)
+        if (!CanMove || isAiming || dialogueActive)
         {
             InputDirection = Vector2.zero;
         }
@@ -71,7 +72,7 @@ public class IsometricPlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!CanMove || aimController.IsAiming)
+        if (!CanMove || aimController.IsAiming || (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive))
         {
             rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
             return;

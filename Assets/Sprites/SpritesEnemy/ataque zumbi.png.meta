@@ -1,0 +1,1041 @@
+fileFormatVersion: 2
+guid: ead7816c1d3420740b97604819e6e574
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ataque zumbi_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 422
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.34512, y: 0.5029057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82f82e8995a10848a81859c10e917a2
+      internalID: 1280339187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 422
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.41315538, y: 0.4923847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fe77904368699468a76c5c3ca68286
+      internalID: 403613241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.45202813, y: 0.4528076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51969b341065a0478746d345252631d
+      internalID: -1805470771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 422
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4999962, y: 0.5217571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da54543a0ed3754191e5483dd356673
+      internalID: -385483360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 422
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.58786803, y: 0.5210864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9302c1df9d16f3d4a91bc0f3721b6086
+      internalID: 119674425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.51192474, y: 0.51106167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13be6e0f71994af4899faa5e425c8a29
+      internalID: 1012113430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 362
+        width: 21
+        height: 57
+      alignment: 9
+      pivot: {x: 0.52271235, y: 0.49791196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c2317bf6da974cb1fb7e838322c8c
+      internalID: 1432370983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 362
+        width: 24
+        height: 59
+      alignment: 9
+      pivot: {x: 0.49006143, y: 0.49720272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e626f5191eac864b9579c11121ff282
+      internalID: 1148941831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 362
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.49999747, y: 0.5061945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8048f38472af143a15df4480f0f38a
+      internalID: 952395900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_9
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 362
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4953491, y: 0.5095576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2886910aaefb3eb4689c509f7ab8ee1f
+      internalID: 1960877593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 306
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.80084854, y: 0.4884027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3692ce4cb7f5b4043817bad6f3828851
+      internalID: 1944890556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 306
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0.78384906, y: 0.49127668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4696da66129d9343aaf95b849840545
+      internalID: 1584308345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 306
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7917594, y: 0.49482122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c0b4469bea6f14685db7b11102e565
+      internalID: -535005475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_14
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 306
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.75398195, y: 0.502125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea18f3b4943801b40b42c238ede2f0ca
+      internalID: 1571907481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_15
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.70874023, y: 0.5038795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08991d6afcf10d43a18b511728c436e
+      internalID: 1869437838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 242
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.45768484, y: 0.508775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df0924183fe7f4a9fa88d4415a7845
+      internalID: 1546211324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 242
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0.34577432, y: 0.49845165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7038aada928afb443a7b88b126389aec
+      internalID: -1169425609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_18
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.34528983, y: 0.49524313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22ddbe8a68ec74e832b30d56ce8057
+      internalID: 1388400714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_19
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 242
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0.3667495, y: 0.5099088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78e9d88e09d0724d8c3fc15c34c6725
+      internalID: 264108221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 242
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.52520484, y: 0.50536525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed370c5090cbe042b99ca16b0c89b5f
+      internalID: 1757993074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 185
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6203824, y: 0.52821916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad3fcc5ae527524c8c0a698d3c0c059
+      internalID: -992824552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 185
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.59430355, y: 0.5128755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a20f051e17c047a0aa28af187cf34
+      internalID: -259101678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_24
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 185
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.52677876, y: 0.4948209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155603fd1eaf3af4686c373d32192b2a
+      internalID: -897568159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_25
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 185
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4832878, y: 0.57228154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72a12fdd94efb742a5118815d555a08
+      internalID: 1370943601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_26
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 184
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.3881474, y: 0.5898803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0cc355f77ec3549857e655996da1d1
+      internalID: -1936802023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_27
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 125
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50197244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a093e76a872d2418e05d6e57d46bb7
+      internalID: -815827489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 125
+        width: 21
+        height: 57
+      alignment: 9
+      pivot: {x: 0.46874565, y: 0.4980169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35aa4be08720bd4cb105d1030b13acc
+      internalID: -2010835546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_29
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 125
+        width: 24
+        height: 59
+      alignment: 9
+      pivot: {x: 0.51367444, y: 0.4978216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d339f529b7e2d7048bb3c5f3d8202ffd
+      internalID: -1720706985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_30
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 125
+        width: 24
+        height: 49
+      alignment: 9
+      pivot: {x: 0.50683594, y: 0.50565416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9135c1f77fc99654ead12f56d6c4e6a1
+      internalID: 1881235129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_31
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 125
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5009155, y: 0.50901794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b79bfe162e04e94f8eddc646c1f51f6
+      internalID: -459912179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 69
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.21231928, y: 0.5195856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87061bd755f0c004b8e9e399a012c81a
+      internalID: -346661520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_33
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 69
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0.25387064, y: 0.50172603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51a448aca43094ebfeb9c06f7d1a19
+      internalID: 1200274083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_34
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0.29337114, y: 0.50154746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3639670d41da45e429ed773f5018d7df
+      internalID: -895461468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_35
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 69
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2965332, y: 0.50565434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6ecddb36426ec49b36380afccb99d9
+      internalID: 265654093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_37
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 69
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.39175415, y: 0.49859712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c063f6907012d4cb9d61e728084933
+      internalID: -1848063018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55780685, y: 0.5237633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95288181c06c06a40a940b77d1de4921
+      internalID: 1502811340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_39
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6812815, y: 0.48642898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c7e4fb51237b142be4161aa09db89a
+      internalID: -2014691767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_40
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 5
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6478132, y: 0.47724938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e315eb6045584aa624b96066cd830
+      internalID: -2046875718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_42
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 5
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0.63923734, y: 0.49197727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95225cb8175f1a14dbe7917afcdacaa9
+      internalID: 1004023242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque zumbi_43
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 5
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.47214675, y: 0.4957701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548c350df8b797c47806b8b37a3073d9
+      internalID: -371522086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc4790440ef5ae040b7466bd00f5d30c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ataque zumbi_0: 1280339187
+      ataque zumbi_1: 403613241
+      ataque zumbi_10: 1944890556
+      ataque zumbi_11: 1584308345
+      ataque zumbi_12: -535005475
+      ataque zumbi_13: -1565371914
+      ataque zumbi_14: 1571907481
+      ataque zumbi_15: 1869437838
+      ataque zumbi_16: 1546211324
+      ataque zumbi_17: -1169425609
+      ataque zumbi_18: 1388400714
+      ataque zumbi_19: 264108221
+      ataque zumbi_2: -1805470771
+      ataque zumbi_20: -659255
+      ataque zumbi_21: 1757993074
+      ataque zumbi_22: -992824552
+      ataque zumbi_23: -259101678
+      ataque zumbi_24: -897568159
+      ataque zumbi_25: 1370943601
+      ataque zumbi_26: -1936802023
+      ataque zumbi_27: -815827489
+      ataque zumbi_28: -2010835546
+      ataque zumbi_29: -1720706985
+      ataque zumbi_3: -385483360
+      ataque zumbi_30: 1881235129
+      ataque zumbi_31: -459912179
+      ataque zumbi_32: -346661520
+      ataque zumbi_33: 1200274083
+      ataque zumbi_34: -895461468
+      ataque zumbi_35: 265654093
+      ataque zumbi_36: -1552204102
+      ataque zumbi_37: -1848063018
+      ataque zumbi_38: 1502811340
+      ataque zumbi_39: -2014691767
+      ataque zumbi_4: 119674425
+      ataque zumbi_40: -2046875718
+      ataque zumbi_41: 634176541
+      ataque zumbi_42: 1004023242
+      ataque zumbi_43: -371522086
+      ataque zumbi_5: 1012113430
+      ataque zumbi_6: 1432370983
+      ataque zumbi_7: 1148941831
+      ataque zumbi_8: 952395900
+      ataque zumbi_9: 1960877593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
