@@ -1,10 +1,21 @@
 using UnityEngine;
+using System.Collections;
 
 public class NpcHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private GameObject targetCircle;
+    [SerializeField] private float hitStunDuration = 0.5f;
+
     private int currentHealth;
+    private Animator animator;
+    private EnemyAI enemyAI;
+
+    void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+        enemyAI = GetComponent<EnemyAI>();
+    }
 
     void Start()
     {
@@ -27,10 +38,22 @@ public class NpcHealth : MonoBehaviour
     {
         currentHealth -= damage;
 
-        if (currentHealth <= 0)
+        if (currentHealth > 0)
+        {
+            if (animator != null) animator.SetTrigger("Hit");
+            if (enemyAI != null) StartCoroutine(StunRoutine());
+        }
+        else
         {
             Die();
         }
+    }
+
+    private IEnumerator StunRoutine()
+    {
+        enemyAI.SetStunned(true);
+        yield return new WaitForSeconds(hitStunDuration);
+        enemyAI.SetStunned(false);
     }
 
     private void Die()

@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: f0266589cfd7d3848b37606a7db02641
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: damage zumbi_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.54780763, y: 0.49615732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251ee4a1db6718a4a897ae5ddad49a3d
+      internalID: -1250314496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 422
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.53568983, y: 0.49999943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d301aef006a9c942b4c0e689f00b32f
+      internalID: 426185142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5204875, y: 0.49231592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf6d66e70dcf7b49871b6b089bf4a00
+      internalID: -2001707163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 422
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.3053538, y: 0.49638337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf0a0466e40b8b4aad686c14961e097
+      internalID: 1606663627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac49763d49f27f42b6ce68fce77bc6c
+      internalID: 453671599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 362
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4bf55eb3e9994dbb6f3516e2d68d8
+      internalID: -1147666764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_6
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ed7a030ec8ba4391645baf2c0ab42
+      internalID: -1138204768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4152e765ce604543984007b52b59321
+      internalID: -985564787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 306
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.66866475, y: 0.49139404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3b18c87ad5db940a962194d849f22c
+      internalID: 800319736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 306
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.70239747, y: 0.5026516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b073883e7f960a43bf80027d87c5e0f
+      internalID: -1152717175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 306
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6686646, y: 0.49139404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766f8277123151e4abbc851f7c87d5d8
+      internalID: -736052081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 306
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.7579011, y: 0.48947394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139e33b9852222744b6d88f6604e4a33
+      internalID: 993256151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.43880346, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f70c0ae10b7fab4782212d4d454878f
+      internalID: -1533964381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 18
+        height: 60
+      alignment: 9
+      pivot: {x: 0.61918473, y: 0.41910806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983094bd5daf3d43bfd0f4b4329f08b
+      internalID: -438766014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4388056, y: 0.49548867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b300c2f66b72794a98fd13fab5081bb
+      internalID: 2002821027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 242
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.27658808, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4389d82e8f2cf42917bb8bec924d31
+      internalID: -363933486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_16
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 182
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45655796, y: 0.48533854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ac723e600bae488d8d4f9520efb8a
+      internalID: -185303959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 183
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.45459673, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2871d4c760b18d64ba2e06deee2d9096
+      internalID: 1359625973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_18
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 182
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44786918, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b315b00ca23919245a14f044498ef023
+      internalID: -1919933840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_19
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 185
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6824544, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ea470c87765d4282fe7c6104964f9
+      internalID: -496135501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 66
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.33579072, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0b0c7fba599aa44b2003c4f3d926d3
+      internalID: -1246397677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.27479857, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae732a43c0f0de4db38c2552eaa8777
+      internalID: -1669991310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 66
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.3709778, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43373022e3c373445959f195131334dc
+      internalID: 1229215530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_23
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 69
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.25028154, y: 0.4952128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40bfb33c6995246ba0e5e5a16f4332
+      internalID: 1135794560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e499e8187c921a142adc169f0b7676ea
+      internalID: -2131834141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_25
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 3
+        width: 18
+        height: 60
+      alignment: 9
+      pivot: {x: 0.36110094, y: 0.4462943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2ecf3fceef15542929c63a7ad4c8d8
+      internalID: -1796036961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_26
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5101982, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448f8be52ef56b64c90654c9d849f4c8
+      internalID: 723578263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage zumbi_27
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 5
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6228783, y: 0.49548894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8872393aed87e42888d7aecb5b79b0
+      internalID: 1467924534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 951b276e849c69f43944cdd970ae5a57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      damage zumbi_0: -1250314496
+      damage zumbi_1: 426185142
+      damage zumbi_10: -736052081
+      damage zumbi_11: 993256151
+      damage zumbi_12: -1533964381
+      damage zumbi_13: -438766014
+      damage zumbi_14: 2002821027
+      damage zumbi_15: -363933486
+      damage zumbi_16: -185303959
+      damage zumbi_17: 1359625973
+      damage zumbi_18: -1919933840
+      damage zumbi_19: -496135501
+      damage zumbi_2: -2001707163
+      damage zumbi_20: -1246397677
+      damage zumbi_21: -1669991310
+      damage zumbi_22: 1229215530
+      damage zumbi_23: 1135794560
+      damage zumbi_24: -2131834141
+      damage zumbi_25: -1796036961
+      damage zumbi_26: 723578263
+      damage zumbi_27: 1467924534
+      damage zumbi_3: 1606663627
+      damage zumbi_4: 453671599
+      damage zumbi_5: -1147666764
+      damage zumbi_6: -1138204768
+      damage zumbi_7: -985564787
+      damage zumbi_8: 800319736
+      damage zumbi_9: -1152717175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

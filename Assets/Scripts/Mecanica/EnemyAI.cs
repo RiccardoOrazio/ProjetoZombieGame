@@ -21,7 +21,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float attackDamageDelay = 0.8f;
     [SerializeField] private float attackMoveLockTime = 1.0f;
 
-    [Header("Configurações de Desvio (NOVO)")]
+    [Header("Configurações de Desvio")]
     [SerializeField] private LayerMask obstacleLayer;
     [SerializeField] private float obstacleRayLength = 1.5f;
     [SerializeField] private float bodyRadius = 0.5f;
@@ -33,6 +33,7 @@ public class EnemyAI : MonoBehaviour
     private Vector3 aimDirection = Vector3.forward;
     private bool shouldChase = false;
     private float distanceToPlayer;
+    private bool isStunned = false;
 
     void Awake()
     {
@@ -63,9 +64,22 @@ public class EnemyAI : MonoBehaviour
         aimDirection = Vector3.forward;
     }
 
+    public void SetStunned(bool state)
+    {
+        isStunned = state;
+        if (isStunned)
+        {
+            shouldChase = false;
+            rb.linearVelocity = Vector3.zero;
+            if (animator != null) animator.SetBool("IsMoving", false);
+        }
+    }
+
     void Update()
     {
         if (playerTransform == null) return;
+
+        if (isStunned) return;
 
         if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
         {
@@ -134,6 +148,8 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isStunned) return;
+
         if (shouldChase)
         {
             Vector3 idealDirection = aimDirection;
@@ -210,6 +226,7 @@ public class EnemyAI : MonoBehaviour
         yield return new WaitForSeconds(delay);
 
         if (playerTransform == null) yield break;
+        if (isStunned) yield break;
 
         float distanceToPlayerOnImpact = Vector3.Distance(transform.position, playerTransform.position);
         if (distanceToPlayerOnImpact > attackRadius + 1.5f) yield break;

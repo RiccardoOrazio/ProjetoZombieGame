@@ -1,10 +1,12 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Configurações de Vida")]
     [SerializeField] private int maxHealth = 100;
+    [SerializeField] private float hitStunDuration = 0.5f;
 
     [Header("Referências da UI (Canvas)")]
     [SerializeField] private TextMeshProUGUI healthText;
@@ -12,22 +14,26 @@ public class PlayerHealth : MonoBehaviour
 
     private int currentHealth;
     private bool isDead = false;
+    private bool isHurting = false;
 
     private IsometricPlayerMovement playerMovement;
     private PlayerShooting playerShooting;
     private AimController aimController;
+    private Animator animator;
 
     void Awake()
     {
         playerMovement = GetComponent<IsometricPlayerMovement>();
         playerShooting = GetComponent<PlayerShooting>();
         aimController = GetComponent<AimController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Start()
     {
         currentHealth = maxHealth;
         isDead = false;
+        isHurting = false;
 
         if (deathTextObject != null)
         {
@@ -39,7 +45,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isDead) return;
+        if (isDead || isHurting) return;
 
         currentHealth -= damage;
 
@@ -53,6 +59,31 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+        }
+        else
+        {
+            StartCoroutine(HandleHitStun());
+        }
+    }
+
+    private IEnumerator HandleHitStun()
+    {
+        isHurting = true;
+
+        if (animator != null) animator.SetTrigger("Hit");
+
+        if (playerMovement != null) playerMovement.CanMove = false;
+        if (playerShooting != null) playerShooting.CanShoot = false;
+        if (aimController != null) aimController.enabled = false;
+
+        yield return new WaitForSeconds(hitStunDuration);
+
+        if (!isDead)
+        {
+            if (playerMovement != null) playerMovement.CanMove = true;
+            if (playerShooting != null) playerShooting.CanShoot = true;
+            if (aimController != null) aimController.enabled = true;
+            isHurting = false;
         }
     }
 
@@ -68,6 +99,8 @@ public class PlayerHealth : MonoBehaviour
     {
         isDead = true;
         Debug.Log("Player Morreu!");
+
+        if (animator != null) animator.SetTrigger("Hit");
 
         if (deathTextObject != null)
         {
