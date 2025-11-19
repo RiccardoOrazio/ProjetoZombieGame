@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     private PlayerShooting playerShooting;
     private AimController aimController;
     private Animator animator;
+    private LanternaController lanternaController;
 
     void Awake()
     {
@@ -27,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
         playerShooting = GetComponent<PlayerShooting>();
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
+        lanternaController = GetComponent<LanternaController>();
     }
 
     void Start()
@@ -75,6 +77,7 @@ public class PlayerHealth : MonoBehaviour
         if (playerMovement != null) playerMovement.CanMove = false;
         if (playerShooting != null) playerShooting.CanShoot = false;
         if (aimController != null) aimController.enabled = false;
+        if (lanternaController != null) lanternaController.enabled = false;
 
         yield return new WaitForSeconds(hitStunDuration);
 
@@ -83,6 +86,7 @@ public class PlayerHealth : MonoBehaviour
             if (playerMovement != null) playerMovement.CanMove = true;
             if (playerShooting != null) playerShooting.CanShoot = true;
             if (aimController != null) aimController.enabled = true;
+            if (lanternaController != null) lanternaController.enabled = true;
             isHurting = false;
         }
     }
@@ -110,5 +114,6 @@ public class PlayerHealth : MonoBehaviour
         if (playerMovement != null) playerMovement.CanMove = false;
         if (playerShooting != null) playerShooting.CanShoot = false;
         if (aimController != null) aimController.enabled = false;
+        if (lanternaController != null) lanternaController.enabled = false;
     }
 }

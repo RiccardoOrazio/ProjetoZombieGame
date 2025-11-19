@@ -1,0 +1,2325 @@
+fileFormatVersion: 2
+guid: 338ed3d1410a996419c0f6051da7bb2d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle lanterna_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04141c4c429a3f64fa5a9284faf0e66b
+      internalID: 671952208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7171124dac879f458eab1277e601013
+      internalID: -559410492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_2
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132101ea46109f749bef42e092ab8d19
+      internalID: 593695717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255614edeef7cc04f9a2c866bef3ef53
+      internalID: -1111158268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e1f69b3cdfd945931b384b26b7821
+      internalID: -830468710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_5
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01193bdf9973cb44180498a32fe94f14
+      internalID: 74954966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_6
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa92b63bb7dce428d791ec96cc9c82
+      internalID: 561628310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_7
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a155fee7f28ac458f689e18480b473
+      internalID: -1015338470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_8
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0846e450d52124eb138eac779ba617
+      internalID: -1843119265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_9
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fd88fcee4ee5149b618ab717e6a239
+      internalID: 1047072507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_10
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c469bdf4bd2c517489d4aa61b5b826d8
+      internalID: -1020443972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_11
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 420
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9548bb9134e74e8cc90a23668405c
+      internalID: -2109302865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59294bb2e7a1e2b47bcafd121dc4c386
+      internalID: 1297718357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8f5363aecd462468fca6c5ba7c8912
+      internalID: -1319908209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_14
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41240670642504d9d5f2f3eed42e0c
+      internalID: 1854045994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_15
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0bbd4530fa9a244995a07e281f3eb7
+      internalID: -1893062108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_16
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 364
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4fab4744138964faf29e265b415de0
+      internalID: -1324413135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_17
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 364
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4d66449ffccc84fb93d701a59067ec
+      internalID: 2092689779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_18
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 364
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904929eb43849704e92a6518f65d7f2c
+      internalID: -606739368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_19
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 364
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cd8d44de7be0e44bfc7f2f134f768f
+      internalID: 1649222192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_20
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c912fd4af93449e4b90617b43a597507
+      internalID: -1325310209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_21
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac4b0a6b6d58814aaf446e70b519725
+      internalID: 1828687779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_22
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d57f554a1462145b477eb145bc7507
+      internalID: 712183800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_23
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 364
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ba3af2396c9b41a6f0d5d3476b4b6
+      internalID: -181577640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 305
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dcb1be9fb2ef548a53063ecbefa6dc
+      internalID: -328020180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_25
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 305
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064546ceb22dc24f8b9da6ce98ca7c7
+      internalID: 308828710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_26
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4900d27c98dc14b87d508f88182ab2
+      internalID: -491253753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_27
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bcbd10d01100f44b97875a6b82122a
+      internalID: 1595401762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_28
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ca72698d4bcc744b7422cfdae4e1d1
+      internalID: -116559994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_29
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a61886a53988646b3fd444dab388ed
+      internalID: -319272960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_30
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522fb3d765a4dc64d8259f9ef8fcc9af
+      internalID: -236755839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_31
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd5566672b46a40a6c70184685a623
+      internalID: -530438649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_32
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fabceaa30bf434c9b2c23094f71f6b
+      internalID: 869888931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_33
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 305
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae32468427963448a7d3cff9fd8587
+      internalID: 441423792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_34
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 305
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de617931a62ac49a4ffc0e44af1902
+      internalID: 1076066691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_35
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 305
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74938e622ff5fa041b60e61952f3368f
+      internalID: 2059450289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_36
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d476639f87b7bf479da742418be4205
+      internalID: 1233878658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891574f2aee8d7f48ba6e7defc93f858
+      internalID: 1720050853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_38
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9041bbdb834f59f409a95cbdf0344045
+      internalID: 1542122666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_39
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c901274663478458b784a0ee424f6a
+      internalID: -1163333941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_40
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4cf6efe0f917243bac71473e9bc186
+      internalID: -899071794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_41
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cf7636496c0d94f9f76c525f6f4b00
+      internalID: 1243750319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_42
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349d2340778fa9d4981629cae2e132ef
+      internalID: 2123429035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_43
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1752fecdf6631f64b98a50096053bdef
+      internalID: -1826118021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_44
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2175e0385fcc2d74b8a2baa45279f24c
+      internalID: -1740901219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_45
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dbf6db72767cc449835425391f3d71
+      internalID: -1669629280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_46
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44436bfa4eb2f9b4f894c0966c1d094c
+      internalID: 1966726165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_47
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 248
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d4b95f16981646a8fa1e459f32421
+      internalID: 1110027051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 189
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c2174188e50914fb4fb2b012c811b5
+      internalID: 1305952398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_49
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 189
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c36057c8c838947b0e45fb47930754
+      internalID: 867265874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_50
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ef55eb3177a4749baf1a6c62df4cc6
+      internalID: -1676139086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_51
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced8c32ff661ea844a872675f9043f67
+      internalID: -1876975832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_52
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431c4c9641cbbc4099c7052487347cc
+      internalID: -1172153057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_53
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc0ba39689712942a0ef544c11a6288
+      internalID: 866881721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_54
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea73d7c5fb81944d825d4160d148814
+      internalID: 1267282132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_55
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258245be18469c2418afa94a18665fc4
+      internalID: -2038920873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_56
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e3bcbc7c78e44fab24828dad9f8e5
+      internalID: 721298167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_57
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 189
+        width: 16
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c3993b03dde6d4e8e5a280273ead55
+      internalID: -858210181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_58
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 189
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ceaec5ba89854cadfc1f80749837a
+      internalID: 482963068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_59
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 189
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d487d4dfd6ac80e4eb65bd169c516b64
+      internalID: -1333958965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_60
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 125
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d8f9a96cf4d524696c3574ef8d3cc6
+      internalID: -883507688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_61
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 125
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f0f01d7b9e0094dbd9c4f599debedc
+      internalID: -1090148342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_62
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 125
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7fbb028266004c8e6699ebed97e8d
+      internalID: 1109970148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_63
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 125
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f015f67cc3693e4891855ddaa665a2f
+      internalID: -1071827334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_64
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 125
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb313b8a1e6dfb7469e80bea571cc241
+      internalID: 1005662428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_65
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 125
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb651f00989c3445b0354641a5485a0
+      internalID: 2075094903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_66
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 125
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813c3be25f6d9fd409f68850a10bc813
+      internalID: -314283073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_67
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 125
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b4d6c829c4c6b45b33de92380a92b9
+      internalID: 960328843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_68
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 125
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b1b901db67cb740b0fc94795916351
+      internalID: 782960661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_69
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 125
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa861433ffcc9049b4b924f882fdc6e
+      internalID: 1006831411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_70
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 125
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab655e6b1995c54d942d6739fa9dc22
+      internalID: 2011593737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_71
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 125
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ac5daebc3538409980ce90e5089a7
+      internalID: 613535913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_72
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04af1b825cbddbc46926e950e1acac07
+      internalID: 212660597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_73
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5a688b886eb184eaf424fc7586f4e9
+      internalID: 2024868086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_74
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ff349d49994340a80422578604323
+      internalID: -1338698663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_75
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39118b72c2e22454ab7df2bc38a5bf84
+      internalID: 255854050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_76
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63407454cd9db9b4ca39815e5e406303
+      internalID: -862060613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_77
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5db9b28e0d3d848b259501be297e5a
+      internalID: 1364024977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_78
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea213c5c5070b904a96bccc309300dbb
+      internalID: 860445401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_79
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab0bf3fe9185747af0134548beda31
+      internalID: -1553089299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_80
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223b1860b924124b815647ed8caed89
+      internalID: 130959270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_81
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d174811d5030148b849764c84d12de
+      internalID: 670918016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_82
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c8e78bf25b9be41a343e80f58b2ad7
+      internalID: -478670321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_83
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 63
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f38fc77b545c0840927633449931f0d
+      internalID: -1203281634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_84
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 4
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7200b591703909946980be813d04a0c2
+      internalID: 337002945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_85
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 4
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b8ac59a948714eae6536cd09f704e
+      internalID: 30231635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_86
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9705bdfb9fb508f4a82c1daec4122000
+      internalID: 1238140834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_87
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bee5593087fcc4d8b57cc19fb4dd66
+      internalID: -1580287573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_88
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bf1c8f94d57c4097b0ee08bd047e7
+      internalID: 1713514818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_89
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff27d8365c7554781a6dd7bcfc5947
+      internalID: 2105317013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_90
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d905a5f36f1f4aadc12e76b435cc7
+      internalID: 2045587186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_91
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b7229a6dc9c448b2b608fbf4f9a66
+      internalID: -2139335202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_92
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375237c2aa07c6f479e77d5c93682726
+      internalID: 75889231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_93
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 4
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1042fcfab80368843a41f0e54ba22209
+      internalID: 1373880125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_94
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 4
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fff563c1d0bd3b4fa6ecaa90e0fd924
+      internalID: 228492451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle lanterna_95
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 4
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c916f6f9f528674188e5ee1d9b1516e
+      internalID: -1232962145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2011725a0be58de439515077ea12e676
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle lanterna_0: 671952208
+      idle lanterna_1: -559410492
+      idle lanterna_10: -1020443972
+      idle lanterna_11: -2109302865
+      idle lanterna_12: 1297718357
+      idle lanterna_13: -1319908209
+      idle lanterna_14: 1854045994
+      idle lanterna_15: -1893062108
+      idle lanterna_16: -1324413135
+      idle lanterna_17: 2092689779
+      idle lanterna_18: -606739368
+      idle lanterna_19: 1649222192
+      idle lanterna_2: 593695717
+      idle lanterna_20: -1325310209
+      idle lanterna_21: 1828687779
+      idle lanterna_22: 712183800
+      idle lanterna_23: -181577640
+      idle lanterna_24: -328020180
+      idle lanterna_25: 308828710
+      idle lanterna_26: -491253753
+      idle lanterna_27: 1595401762
+      idle lanterna_28: -116559994
+      idle lanterna_29: -319272960
+      idle lanterna_3: -1111158268
+      idle lanterna_30: -236755839
+      idle lanterna_31: -530438649
+      idle lanterna_32: 869888931
+      idle lanterna_33: 441423792
+      idle lanterna_34: 1076066691
+      idle lanterna_35: 2059450289
+      idle lanterna_36: 1233878658
+      idle lanterna_37: 1720050853
+      idle lanterna_38: 1542122666
+      idle lanterna_39: -1163333941
+      idle lanterna_4: -830468710
+      idle lanterna_40: -899071794
+      idle lanterna_41: 1243750319
+      idle lanterna_42: 2123429035
+      idle lanterna_43: -1826118021
+      idle lanterna_44: -1740901219
+      idle lanterna_45: -1669629280
+      idle lanterna_46: 1966726165
+      idle lanterna_47: 1110027051
+      idle lanterna_48: 1305952398
+      idle lanterna_49: 867265874
+      idle lanterna_5: 74954966
+      idle lanterna_50: -1676139086
+      idle lanterna_51: -1876975832
+      idle lanterna_52: -1172153057
+      idle lanterna_53: 866881721
+      idle lanterna_54: 1267282132
+      idle lanterna_55: -2038920873
+      idle lanterna_56: 721298167
+      idle lanterna_57: -858210181
+      idle lanterna_58: 482963068
+      idle lanterna_59: -1333958965
+      idle lanterna_6: 561628310
+      idle lanterna_60: -883507688
+      idle lanterna_61: -1090148342
+      idle lanterna_62: 1109970148
+      idle lanterna_63: -1071827334
+      idle lanterna_64: 1005662428
+      idle lanterna_65: 2075094903
+      idle lanterna_66: -314283073
+      idle lanterna_67: 960328843
+      idle lanterna_68: 782960661
+      idle lanterna_69: 1006831411
+      idle lanterna_7: -1015338470
+      idle lanterna_70: 2011593737
+      idle lanterna_71: 613535913
+      idle lanterna_72: 212660597
+      idle lanterna_73: 2024868086
+      idle lanterna_74: -1338698663
+      idle lanterna_75: 255854050
+      idle lanterna_76: -862060613
+      idle lanterna_77: 1364024977
+      idle lanterna_78: 860445401
+      idle lanterna_79: -1553089299
+      idle lanterna_8: -1843119265
+      idle lanterna_80: 130959270
+      idle lanterna_81: 670918016
+      idle lanterna_82: -478670321
+      idle lanterna_83: -1203281634
+      idle lanterna_84: 337002945
+      idle lanterna_85: 30231635
+      idle lanterna_86: 1238140834
+      idle lanterna_87: -1580287573
+      idle lanterna_88: 1713514818
+      idle lanterna_89: 2105317013
+      idle lanterna_9: 1047072507
+      idle lanterna_90: 2045587186
+      idle lanterna_91: -2139335202
+      idle lanterna_92: 75889231
+      idle lanterna_93: 1373880125
+      idle lanterna_94: 228492451
+      idle lanterna_95: -1232962145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

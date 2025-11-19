@@ -3,7 +3,7 @@ using UnityEngine;
 public class LanternaController : MonoBehaviour
 {
     [Header("Referências")]
-    [SerializeField] private Transform lanternaHolder;
+    [SerializeField] private Light lanternaLight;
 
     [Header("Configurações")]
     [SerializeField] private float velocidadeRotacao = 15f;
@@ -16,10 +16,44 @@ public class LanternaController : MonoBehaviour
         aimController = GetComponent<AimController>();
     }
 
+    void Start()
+    {
+        if (lanternaLight != null)
+        {
+            lanternaLight.enabled = false;
+        }
+    }
+
+    public void SetLightSourceEnabled(bool state)
+    {
+        if (lanternaLight != null)
+        {
+            if (state && !aimController.IsAiming) return;
+            lanternaLight.enabled = state;
+        }
+    }
+
     void Update()
     {
-        PosicionarLanterna();
-        RotacionarLanterna();
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            if (lanternaLight != null) lanternaLight.enabled = false;
+            return;
+        }
+
+        if (aimController.IsAiming)
+        {
+            PosicionarLanterna();
+            RotacionarLanterna();
+        }
+
+        if (lanternaLight != null && lanternaLight.enabled)
+        {
+            if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+            {
+                lanternaLight.enabled = false;
+            }
+        }
     }
 
     private void PosicionarLanterna()
@@ -28,9 +62,9 @@ public class LanternaController : MonoBehaviour
         Vector3 playerCenterWithOffset = transform.position;
         Vector3 offset = aimDirection * distanciaDaLanterna;
 
-        lanternaHolder.position = new Vector3(
+        lanternaLight.transform.position = new Vector3(
             playerCenterWithOffset.x + offset.x,
-            lanternaHolder.position.y,
+            lanternaLight.transform.position.y,
             playerCenterWithOffset.z + offset.z
         );
     }
@@ -41,7 +75,7 @@ public class LanternaController : MonoBehaviour
         if (aimDirection != Vector3.zero)
         {
             Quaternion rotacaoAlvo = Quaternion.LookRotation(aimDirection);
-            lanternaHolder.rotation = Quaternion.Slerp(lanternaHolder.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
+            lanternaLight.transform.rotation = Quaternion.Slerp(lanternaLight.transform.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
         }
     }
 }

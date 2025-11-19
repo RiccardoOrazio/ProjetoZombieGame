@@ -3435,9 +3435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee45d2b1ec08c74188d5b6917bc05e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanternaHolder: {fileID: 233824923}
-  velocidadeRotacao: 1000
-  distanciaDaLanterna: 0.6
+  lanternaLight: {fileID: 233824925}
+  velocidadeRotacao: 15
+  distanciaDaLanterna: 1.5
 --- !u!114 &1942206047
 MonoBehaviour:
   m_ObjectHideFlags: 0
