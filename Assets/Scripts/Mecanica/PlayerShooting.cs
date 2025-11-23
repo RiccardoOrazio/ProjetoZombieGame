@@ -16,7 +16,8 @@ public class PlayerShooting : MonoBehaviour
 
     [Header("Configurações de Munição")]
     [SerializeField] private int clipSize = 8;
-    [SerializeField] private int maxAmmo = 32;
+    [SerializeField] private int startingAmmo = 32;
+    [SerializeField] private int maxAmmo = 999;
     [SerializeField] private float reloadTime = 1.5f;
 
     [Header("Referências da UI")]
@@ -42,7 +43,7 @@ public class PlayerShooting : MonoBehaviour
     void Start()
     {
         currentClipAmmo = clipSize;
-        currentTotalAmmo = maxAmmo;
+        currentTotalAmmo = startingAmmo;
         isReloading = false;
         CanShoot = true;
         UpdateAmmoUI();
@@ -212,5 +213,16 @@ public class PlayerShooting : MonoBehaviour
         {
             ammoText.text = $"{currentClipAmmo} / {currentTotalAmmo}";
         }
+    }
+
+    public void AddAmmo(int amount)
+    {
+        currentTotalAmmo += amount;
+
+        if (currentTotalAmmo > maxAmmo)
+        {
+            currentTotalAmmo = maxAmmo;
+        }
+        UpdateAmmoUI();
     }
 }

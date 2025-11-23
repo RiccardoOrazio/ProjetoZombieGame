@@ -1,0 +1,1083 @@
+fileFormatVersion: 2
+guid: 9d2193241ee002549899912416a248df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk sem cabeca_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c168208a6b31ea46a40a9288768cd3c
+      internalID: -523371226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c8647aba4bac6429c2f6b0eb3b7181
+      internalID: -867942430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6ac093fc9056940bbb5d035e979024
+      internalID: -849841467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d204cacf0b6ec4fa63a380610d20a7
+      internalID: -1373396673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786a76d430baf5a45b3d0cf4a7ccf680
+      internalID: -434840429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_5
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6376644bb258bc94aaa4b8c7f13a04d2
+      internalID: 23629536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d0f210fb610e4d9ef5c2ab18b88f2
+      internalID: 2124331049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 360
+        width: 20
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39054e2087ac034ca7a8c95c023a834
+      internalID: 810556118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3faa4c48b14ba4583b521594dedf80
+      internalID: 1557851973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_9
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84278087b23e1744cae466fb2f34cad6
+      internalID: 438078845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_10
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 360
+        width: 20
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a190976fae1574f8d2ef2ed2b32f1c
+      internalID: 411254464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_11
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c904fa552476904f84b30a740256956
+      internalID: -1874653074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de1c35c4caec844e81c70bf733c5b60
+      internalID: -1680780939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 306
+        width: 22
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a367d0cad276640af12a6e2b3f2012
+      internalID: 526779460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b257de844a4ae4042b31aec39fe55c8f
+      internalID: -424618272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaca211301c3a64daab9cf0f7a1e9f3
+      internalID: -583660586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_16
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35bf6f697bdc494d81bda5618b28184
+      internalID: 1617440667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bea616d8f03db47b85cb82b1d7c1b6
+      internalID: 395877052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33b36439058e1846b1077cf51503891
+      internalID: -126231968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2de01ff331bd9409c5d6bc0385a93f
+      internalID: 429756751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e35af335b4be9148b1ea634eb8aec0a
+      internalID: 562212532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_21
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d55c064b822e840ae2d6ed0c10d2c3
+      internalID: -1349994931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_22
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef55620599521de40a2eeb685f0b5c90
+      internalID: 1586815298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_23
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11f32d77a64744098745096d97d4e9
+      internalID: -573847989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 185
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023a1074cf3a9d242b5e2119075caf40
+      internalID: -1597500426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f807403def6cc4985efa428133d9ec
+      internalID: 1271245780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_26
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2309924668e954f8a0764dd76b4e23
+      internalID: -1038977627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cea58460dd6ed42b358a3680185b88
+      internalID: 1703631244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_28
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987defbd1d54ff247b5319eb5ac3c0bb
+      internalID: 2138643874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320d093de6461104ab993b70b16daff1
+      internalID: -842891528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a53850bc76afe4cac98cb67ff7dae7
+      internalID: -19787649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 69
+        width: 22
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae6a802499f804396db2e77102f8c5
+      internalID: -594001869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_32
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10bdee18658b2a40817406bf7b26727
+      internalID: 1005410608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_33
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7057c63563c367e44be3dbcadb6de890
+      internalID: 418141220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_34
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00e3ce69ca0cf4aa15ff77bafa85ea
+      internalID: -358017213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_35
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fcdb8e8d3c6cb43bfe4c85e7246b46
+      internalID: -387789671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4f949ba8ab1ac4e8da5224d8bc810d
+      internalID: 416879239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_37
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd0e1987be8864aa5081627e7a09f0
+      internalID: 1965545129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_38
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf540965e9d45498eb030b5c3b8f8e
+      internalID: -988224337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_39
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c0d1c4f5e50e42b178e1b21f8bbae
+      internalID: 803392975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_40
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39962c1733e20a64bbdc8884330067ab
+      internalID: 1515485872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk sem cabeca_41
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c07fc0f6130f4d8ad19c5af2a3ddd
+      internalID: -1748250239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e0706adf7b7dfca48b33d7f175ed86a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walk sem cabeca_0: -523371226
+      walk sem cabeca_1: -867942430
+      walk sem cabeca_10: 411254464
+      walk sem cabeca_11: -1874653074
+      walk sem cabeca_12: -1680780939
+      walk sem cabeca_13: 526779460
+      walk sem cabeca_14: -424618272
+      walk sem cabeca_15: -583660586
+      walk sem cabeca_16: 1617440667
+      walk sem cabeca_17: 395877052
+      walk sem cabeca_18: -126231968
+      walk sem cabeca_19: 429756751
+      walk sem cabeca_2: -849841467
+      walk sem cabeca_20: 562212532
+      walk sem cabeca_21: -1349994931
+      walk sem cabeca_22: 1586815298
+      walk sem cabeca_23: -573847989
+      walk sem cabeca_24: -1597500426
+      walk sem cabeca_25: 1271245780
+      walk sem cabeca_26: -1038977627
+      walk sem cabeca_27: 1703631244
+      walk sem cabeca_28: 2138643874
+      walk sem cabeca_29: -842891528
+      walk sem cabeca_3: -1373396673
+      walk sem cabeca_30: -19787649
+      walk sem cabeca_31: -594001869
+      walk sem cabeca_32: 1005410608
+      walk sem cabeca_33: 418141220
+      walk sem cabeca_34: -358017213
+      walk sem cabeca_35: -387789671
+      walk sem cabeca_36: 416879239
+      walk sem cabeca_37: 1965545129
+      walk sem cabeca_38: -988224337
+      walk sem cabeca_39: 803392975
+      walk sem cabeca_4: -434840429
+      walk sem cabeca_40: 1515485872
+      walk sem cabeca_41: -1748250239
+      walk sem cabeca_5: 23629536
+      walk sem cabeca_6: 2124331049
+      walk sem cabeca_7: 810556118
+      walk sem cabeca_8: 1557851973
+      walk sem cabeca_9: 438078845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

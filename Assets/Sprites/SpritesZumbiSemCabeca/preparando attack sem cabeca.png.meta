@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: 57e65b3912dcfb04caa8505007723356
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 40
+        height: 42
+      alignment: 9
+      pivot: {x: 0.3460825, y: 0.5721494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baecdb4e97bb6bf49b5072f7ebd6c849
+      internalID: -827727995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 422
+        width: 42
+        height: 53
+      alignment: 9
+      pivot: {x: 0.36742365, y: 0.47532913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10559a079c5e66c48bb8cc7dc4dffd25
+      internalID: -1129180656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 423
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5082811, y: 0.4370261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011b20b9a8ba28f469598106257cedbb
+      internalID: -766304922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ca14e7c980de24e9982acd0611d135
+      internalID: -617895509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 362
+        width: 23
+        height: 52
+      alignment: 9
+      pivot: {x: 0.52543175, y: 0.39031455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3f17c73c4d0b4692b851edcdb3b41
+      internalID: -1997688185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_5
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 52
+      alignment: 9
+      pivot: {x: 0.507312, y: 0.39312685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a975c5b33e457da47adbc68b23394959
+      internalID: 203379616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 306
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6615789, y: 0.59683686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b5c2b3b9fe5d47a8f51369b5e9f19
+      internalID: 833827302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 306
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6574854, y: 0.45357066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f87d933492a64488f3273dbc309ac3
+      internalID: 395553896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 306
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5962769, y: 0.45979223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30ebd393abd2d4f8db5984f4067d71
+      internalID: 427087408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 38
+        height: 43
+      alignment: 9
+      pivot: {x: 0.30953386, y: 0.5336403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9299d57a62e30674c95f44db2fe064e5
+      internalID: 609867261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 38
+        height: 60
+      alignment: 9
+      pivot: {x: 0.33106032, y: 0.39794514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4dac28fbe5ef4fa840c7360d122a4
+      internalID: 9800336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 17
+        height: 60
+      alignment: 9
+      pivot: {x: 0.71582747, y: 0.41340688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baad2234549b1b74f85662edc5746805
+      internalID: 307636693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 185
+        width: 40
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6390651, y: 0.57690394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ab99d40c1fc09439f24e0626c3109b
+      internalID: -1201583591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 185
+        width: 45
+        height: 53
+      alignment: 9
+      pivot: {x: 0.599842, y: 0.4470235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb47801ffdd9fc49841ea9f59ef3b00
+      internalID: -1502433863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 185
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4667843, y: 0.45190084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823b3225f0d814e48a090763d2a47927
+      internalID: 290379386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 69
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: 0.33593407, y: 0.5979763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acdb47e9026fdd44b86a6536d6c1d7b
+      internalID: 807461530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 69
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: 0.34252402, y: 0.4595635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8383fec5cef44d4eb4d196fc88614f1
+      internalID: 1812512243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.38882324, y: 0.45646092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaa783510c210d41944f2f97995c3a2
+      internalID: -1803208125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 38
+        height: 43
+      alignment: 9
+      pivot: {x: 0.68439656, y: 0.5524195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966403e21822c2048abda1142ac77ba1
+      internalID: -1456257954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 38
+        height: 60
+      alignment: 9
+      pivot: {x: 0.70098555, y: 0.41140196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478e76a9aeb33e449f404b58b7446a9
+      internalID: 1843401223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preparando attack sem cabeca_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 5
+        width: 17
+        height: 60
+      alignment: 9
+      pivot: {x: 0.28779513, y: 0.41704124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4017d721d2582b94b85b4eda04923773
+      internalID: 2120658102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8fbce2066e048134c87c96d659a0a11d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      preparando attack sem cabeca_0: -827727995
+      preparando attack sem cabeca_1: -1129180656
+      preparando attack sem cabeca_10: 9800336
+      preparando attack sem cabeca_11: 307636693
+      preparando attack sem cabeca_12: -1201583591
+      preparando attack sem cabeca_13: -1502433863
+      preparando attack sem cabeca_14: 290379386
+      preparando attack sem cabeca_15: 807461530
+      preparando attack sem cabeca_16: 1812512243
+      preparando attack sem cabeca_17: -1803208125
+      preparando attack sem cabeca_18: -1456257954
+      preparando attack sem cabeca_19: 1843401223
+      preparando attack sem cabeca_2: -766304922
+      preparando attack sem cabeca_20: 2120658102
+      preparando attack sem cabeca_21: 1910733675
+      preparando attack sem cabeca_3: -617895509
+      preparando attack sem cabeca_4: -1997688185
+      preparando attack sem cabeca_5: 203379616
+      preparando attack sem cabeca_6: 833827302
+      preparando attack sem cabeca_7: 395553896
+      preparando attack sem cabeca_8: 427087408
+      preparando attack sem cabeca_9: 609867261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

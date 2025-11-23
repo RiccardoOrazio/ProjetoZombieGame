@@ -1,0 +1,2049 @@
+fileFormatVersion: 2
+guid: e3fe5f6bf90f30343a688e574b565c94
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle sem cabeca_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 422
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a7a1a3ff5a30e49821c9c71a34a5d5
+      internalID: 2095241356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 422
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7ee52b6621a94bbc2e7ef261e8f1f
+      internalID: -680971925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6005186ed172944a8090734f06b348
+      internalID: -461488673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2989751f12074df4cbd7b7e5e768f5a0
+      internalID: -129588823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d182d6ecd345e6042abc35950712fd55
+      internalID: -1466476498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_5
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc1c3c139e400e4a96f2a69643171a7
+      internalID: 1166539546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_6
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e7f8a46c5d5ee4a88b6f50991329f2
+      internalID: -315880283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_7
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a04d3f2c69a3429731cc8a1a1be55
+      internalID: 1432709365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_8
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf3c4723a0f4f04c9d8cec00ff0364b
+      internalID: -1598427988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_9
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e092ca06f1c0b448e4c178c16d2096
+      internalID: -273933828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_10
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2631cfb018f2e914b82403e957f654ee
+      internalID: 96733905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_11
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2b3996829350e41ac11cc1d75c3221
+      internalID: -133727772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abd6a825b68e4446a4df41d3ff6f981
+      internalID: -1776711691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6b5e164bb35474d8878b425c467d4e
+      internalID: 1043074410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103cc3e1a2da9aa4aa3cb021104e75f4
+      internalID: 88758684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c154a10442abe47b9c4d48e6d9efbe
+      internalID: 1703441291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_16
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b481b1d2df304749b5812ccab17c056
+      internalID: 1577828283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_17
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266901da0d833574aa58a5fdb3628e66
+      internalID: 1992774611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_18
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52879767011c96244b7d77a561cb42f0
+      internalID: -1509662621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_19
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c7a95e6d0b314ca044e6b46135bca
+      internalID: -216302309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_20
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bdbc96e0e4a2949b1db44e5643277f
+      internalID: 1706168288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_21
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 362
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdd50362760278409420b431ee5f759
+      internalID: -1252380732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_22
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72230633692c0d349bd1faed8e71f3b6
+      internalID: 1477896088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_23
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095ed289a70da094998350ab7d3c73eb
+      internalID: -705317592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5aae4dfd719fa40900f97499a02ffa
+      internalID: 911837188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067334f4f71154e478b35ea32bbe9b01
+      internalID: -348200522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_26
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5c7538d59a3f24880f66fe34088536
+      internalID: -1469229328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86471d864321fa42bf7be7393d5b8f3
+      internalID: 569258222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_28
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3be368ba094f43a6d2b9deff02ddf
+      internalID: -436135770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_29
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c999d3ebdbc0c43b283fc335bcf469
+      internalID: -911273458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_30
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9695ba3f62834dd4d97563e471a181de
+      internalID: -2084436779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_31
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870260d3d2ff0e84a9fb4c0b8c12917e
+      internalID: 884409575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_32
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2277c84d96c9648b52cc98094dd212
+      internalID: 1275796022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_33
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 306
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b7f71522400e47b6b5e8062a0786c
+      internalID: -367085841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_34
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 305
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4fa4611c015149960f734fecde18c
+      internalID: 641068356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_35
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814563a381ae7b74b8b7d96a51d33bfa
+      internalID: -1187597126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.51234835, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e09bd067e648c4885523864b3467f9
+      internalID: 482966284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.49999866, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7473c09c3068c44bc4fc3c26cc8599
+      internalID: -1412273209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_38
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad12a91f07b894f8f566da3c4e7167
+      internalID: -973126884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_39
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5000027, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84742b596f4355847b84d312f0474dd8
+      internalID: 1501222450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_40
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1c5eb92b1b2dc4c9cfd355bf48b460
+      internalID: 1566348193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_41
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc7d4014a9f5a444a9fee90dea3608c
+      internalID: 1906059956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_42
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3827e98139ead36429a15da442144311
+      internalID: -1973586150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_43
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff44123126533724c9c0fa155bb0cdd4
+      internalID: 447426808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_44
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec233f7e43b475540a84447e596a4a20
+      internalID: -1163555545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_45
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 242
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732825d9a6dd4844a8a705557e4be9a2
+      internalID: 461580572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_46
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b102dc9311a314ea6d34c654e95e0c
+      internalID: 381829496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_47
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 243
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad6115609870254782ce5673f3c7861
+      internalID: 2087140570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 185
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9e6fec6bda694695e6c12352dea7c
+      internalID: 387520386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_49
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 185
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084d4b3e789d1a24a8c6e3e9413dc252
+      internalID: -341174903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_50
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63c20be5cdd4424182027b3325106a9
+      internalID: 543394973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_51
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d357c8bcadb5784596819196c8dc1a2
+      internalID: -1820723329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_52
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb5c005e43181a40aad868f4d8dc8df
+      internalID: 154478115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_53
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7882adfa279a546af627c7db9c472c
+      internalID: 924728349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_54
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b397a1d19258297479a25d52b23f4b09
+      internalID: 2066137246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_55
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df5edfa37e56347aa2d51aac6362f5
+      internalID: 1240448657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_56
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b2d1f7bae3cb409972257191676f6
+      internalID: 285859333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_57
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5293be88783564ebe8821e5edfa5ab
+      internalID: 746838581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_58
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc734286f8385e4e80694b244c2ddb6
+      internalID: -148852153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_59
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e5db27766b5f84399ee2a41cbf4c7b
+      internalID: -820641851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_60
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6ad3e17f8e32443a59ba7b053cdbd3
+      internalID: 2090112888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_61
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f8fbd91a13e3643a1e42dc5b95aec8
+      internalID: 2019847727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_62
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21191ebd6f1d6749ae6c62f08e5c934
+      internalID: -1359645735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_63
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd44897d64a42646b8a9d96ad971b69
+      internalID: -1295013593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_64
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ad5f5ff82c1604a814b42f92d94765
+      internalID: 1313243615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_65
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95b87721dc05347a7d02569d208d7c
+      internalID: -1526606731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_66
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76bd860761e6a942bc865eae6444314
+      internalID: 1033893271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_67
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14216e7ced569a64aab522035ed90a69
+      internalID: -168158116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_68
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78403e24cb66f2d49918a3e458645ba4
+      internalID: 1941189055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_69
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 69
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3497a05aeb406e74ba41753ccdf3c7c4
+      internalID: 878740490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_70
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100359dfd4a95864b9279896a5ec2ed0
+      internalID: -591421115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_71
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7c2055e5bb0e64099384fc020cc40a
+      internalID: 1615571341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_72
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610a71e181b8a1478ab272210fd39a3
+      internalID: 517277730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d65f87f1741f2d4f8d34b1a340f1626
+      internalID: -1072807751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_74
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7de6930a6efc164c812b2ceaa31d302
+      internalID: 2035668174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_75
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd74dd4acb2553d47bf028492f26c768
+      internalID: 164815116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_76
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5784f4e7229745348aeb2c60d53397bd
+      internalID: 139534670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_77
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496052d0fe8b334a836804d2ec79c8c
+      internalID: 626389160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_78
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ee9ad3779e4f04bb76ae1aafa547df
+      internalID: 1816474246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_79
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4032977151f7cac4ebb290df41b3b55b
+      internalID: 1969076963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_80
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b49280a8587bb4f8b5bede57c3cd07
+      internalID: 1770186242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_81
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb20d8acbaef1f45b77d8818d57564b
+      internalID: 1944134833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_82
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdec01eea006309469a9b67ef8a58a5a
+      internalID: 1393862100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle sem cabeca_83
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85856f92d19fda64489b68f4c745f917
+      internalID: 2104165661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fee3fa113b321564698d25f47c011677
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle sem cabeca_0: 2095241356
+      idle sem cabeca_1: -680971925
+      idle sem cabeca_10: 96733905
+      idle sem cabeca_11: -133727772
+      idle sem cabeca_12: -1776711691
+      idle sem cabeca_13: 1043074410
+      idle sem cabeca_14: 88758684
+      idle sem cabeca_15: 1703441291
+      idle sem cabeca_16: 1577828283
+      idle sem cabeca_17: 1992774611
+      idle sem cabeca_18: -1509662621
+      idle sem cabeca_19: -216302309
+      idle sem cabeca_2: -461488673
+      idle sem cabeca_20: 1706168288
+      idle sem cabeca_21: -1252380732
+      idle sem cabeca_22: 1477896088
+      idle sem cabeca_23: -705317592
+      idle sem cabeca_24: 911837188
+      idle sem cabeca_25: -348200522
+      idle sem cabeca_26: -1469229328
+      idle sem cabeca_27: 569258222
+      idle sem cabeca_28: -436135770
+      idle sem cabeca_29: -911273458
+      idle sem cabeca_3: -129588823
+      idle sem cabeca_30: -2084436779
+      idle sem cabeca_31: 884409575
+      idle sem cabeca_32: 1275796022
+      idle sem cabeca_33: -367085841
+      idle sem cabeca_34: 641068356
+      idle sem cabeca_35: -1187597126
+      idle sem cabeca_36: 482966284
+      idle sem cabeca_37: -1412273209
+      idle sem cabeca_38: -973126884
+      idle sem cabeca_39: 1501222450
+      idle sem cabeca_4: -1466476498
+      idle sem cabeca_40: 1566348193
+      idle sem cabeca_41: 1906059956
+      idle sem cabeca_42: -1973586150
+      idle sem cabeca_43: 447426808
+      idle sem cabeca_44: -1163555545
+      idle sem cabeca_45: 461580572
+      idle sem cabeca_46: 381829496
+      idle sem cabeca_47: 2087140570
+      idle sem cabeca_48: 387520386
+      idle sem cabeca_49: -341174903
+      idle sem cabeca_5: 1166539546
+      idle sem cabeca_50: 543394973
+      idle sem cabeca_51: -1820723329
+      idle sem cabeca_52: 154478115
+      idle sem cabeca_53: 924728349
+      idle sem cabeca_54: 2066137246
+      idle sem cabeca_55: 1240448657
+      idle sem cabeca_56: 285859333
+      idle sem cabeca_57: 746838581
+      idle sem cabeca_58: -148852153
+      idle sem cabeca_59: -820641851
+      idle sem cabeca_6: -315880283
+      idle sem cabeca_60: 2090112888
+      idle sem cabeca_61: 2019847727
+      idle sem cabeca_62: -1359645735
+      idle sem cabeca_63: -1295013593
+      idle sem cabeca_64: 1313243615
+      idle sem cabeca_65: -1526606731
+      idle sem cabeca_66: 1033893271
+      idle sem cabeca_67: -168158116
+      idle sem cabeca_68: 1941189055
+      idle sem cabeca_69: 878740490
+      idle sem cabeca_7: 1432709365
+      idle sem cabeca_70: -591421115
+      idle sem cabeca_71: 1615571341
+      idle sem cabeca_72: 517277730
+      idle sem cabeca_73: -1072807751
+      idle sem cabeca_74: 2035668174
+      idle sem cabeca_75: 164815116
+      idle sem cabeca_76: 139534670
+      idle sem cabeca_77: 626389160
+      idle sem cabeca_78: 1816474246
+      idle sem cabeca_79: 1969076963
+      idle sem cabeca_8: -1598427988
+      idle sem cabeca_80: 1770186242
+      idle sem cabeca_81: 1944134833
+      idle sem cabeca_82: 1393862100
+      idle sem cabeca_83: 2104165661
+      idle sem cabeca_9: -273933828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

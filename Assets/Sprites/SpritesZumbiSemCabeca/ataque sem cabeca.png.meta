@@ -1,0 +1,926 @@
+fileFormatVersion: 2
+guid: e754b41aaf12deb4fa91c74645cb2c13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ataque sem cabeca_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 422
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.29193667, y: 0.47531068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677873c3755f49d45ae70813a2de9a39
+      internalID: 1860454874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 422
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.32405144, y: 0.47770867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe66f619bc73c84d8fcf1017a361a5f
+      internalID: 181918972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 422
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.38396868, y: 0.43727416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e484fb73ac2f9304784e6e9c96564d1e
+      internalID: -527254554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_3
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 422
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.41804504, y: 0.5180783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4911d0690cbee4cacc19db6b9a2e9c
+      internalID: -319325082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 422
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4857901, y: 0.5663532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d6bb6e8364c4e4aa909ecc0bf5d305
+      internalID: 2087751986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 362
+        width: 20
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.4767378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1673c591468a64580448067c24cf30
+      internalID: 750672598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 362
+        width: 21
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5234288, y: 0.3575102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70afb27c8556e264790ad74a07291935
+      internalID: 799330944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 362
+        width: 24
+        height: 59
+      alignment: 9
+      pivot: {x: 0.49577332, y: 0.3456933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0732d32992dfb45820d4ea386ec30b
+      internalID: -947350084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 362
+        width: 24
+        height: 46
+      alignment: 9
+      pivot: {x: 0.500679, y: 0.43790072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e939ac6f42369643ab43db713b22295
+      internalID: 855954944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_9
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 362
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4957588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba8ee7a9d4ea8047a9a91793951d5dc
+      internalID: -1649812176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 306
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6852226, y: 0.52523196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cdab99d9b18734f90c684a7af566a1
+      internalID: 1201614941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 306
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0.66565144, y: 0.46631682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985f1880e6418714296231bd861e3b45
+      internalID: -1127434751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 306
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0.67179817, y: 0.44896597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e1b8aefc3aae4c9aceacce570fcd3
+      internalID: 748261859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_14
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 306
+        width: 26
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6533485, y: 0.5947342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c60a2c80789fc4cad8f5317765d74b
+      internalID: 1020551202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_15
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5267456, y: 0.584288}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bc069355b828943bd1413a37ccc3ec
+      internalID: -236372560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 242
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.44138753, y: 0.47035804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81382523833a42b40b2fb2fa9b852651
+      internalID: 2075194697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 242
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0.29783732, y: 0.4661088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762860aa108d55c4bbb7427d9e4d06c8
+      internalID: 803201372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_18
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 242
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.32986364, y: 0.44839922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884695fc632f94d459b230d199c70d39
+      internalID: -932729170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_19
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 242
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.35471478, y: 0.49000853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6dc6f0a4bc27347baf2b968e56aacb
+      internalID: -1849051261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 242
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.50684124, y: 0.56286836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee1e06099cfa8142b664450fede2347
+      internalID: 1227189013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 185
+        width: 36
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6935108, y: 0.47907472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5745dfe4889d9647ab52859bbfd1f58
+      internalID: 757549662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 185
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6601457, y: 0.48563296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b2122784f1ba6408d5ad24d9b0fbfc
+      internalID: -1105101360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_24
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 185
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.6066546, y: 0.43240052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29617204294f207429e0d220054553ed
+      internalID: -98982446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_25
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 185
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5750599, y: 0.52027464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c509ba5ea140542478eb0621e8c84e78
+      internalID: 576259179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_26
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 185
+        width: 27
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4878427, y: 0.57640004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c8f0c76a874e24096f57a4fbb2b2aa
+      internalID: -1459205834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_27
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 69
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.30588186, y: 0.54647726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be2c5dd680b6fe4c985199168be260a
+      internalID: 1632919533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 69
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: 0.32756957, y: 0.46142372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282282399c4c3784d9295b5f79c07874
+      internalID: 2024553141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_29
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 27
+        height: 53
+      alignment: 9
+      pivot: {x: 0.36561415, y: 0.46212393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e7f54c9cc24ef40a5c80527c4c1704
+      internalID: 10339010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_30
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 69
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: 0.38455078, y: 0.60761356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39458a98fe3a3469be6dbd380b1684
+      internalID: -547423231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_32
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 69
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.48413697, y: 0.59618413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b83879d0730304ca4102cfc4649d81
+      internalID: -903178565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 21
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6103835, y: 0.47682282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bba0306ee6571041aad91884292d989
+      internalID: -1957225033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_34
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0.7230306, y: 0.4521675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c53cc9d5e49ad4f862596006946824
+      internalID: 385959832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_35
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 5
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.66735315, y: 0.43210426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe5f87a6a955e94eb93e93b82d79638
+      internalID: -586169486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 5
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.6566934, y: 0.48247293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fe8bfe2bb8d204389da5690fe1e890
+      internalID: 1411617096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque sem cabeca_38
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 5
+        width: 23
+        height: 43
+      alignment: 9
+      pivot: {x: 0.50529677, y: 0.5511929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c36257fb7fa55f40832d6a361dd69e8
+      internalID: -1756500246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2fb3b47f81452ba45b1cb327f48cc714
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ataque sem cabeca_0: 1860454874
+      ataque sem cabeca_1: 181918972
+      ataque sem cabeca_10: 1201614941
+      ataque sem cabeca_11: -1127434751
+      ataque sem cabeca_12: 748261859
+      ataque sem cabeca_13: 847117083
+      ataque sem cabeca_14: 1020551202
+      ataque sem cabeca_15: -236372560
+      ataque sem cabeca_16: 2075194697
+      ataque sem cabeca_17: 803201372
+      ataque sem cabeca_18: -932729170
+      ataque sem cabeca_19: -1849051261
+      ataque sem cabeca_2: -527254554
+      ataque sem cabeca_20: 471269289
+      ataque sem cabeca_21: 1227189013
+      ataque sem cabeca_22: 757549662
+      ataque sem cabeca_23: -1105101360
+      ataque sem cabeca_24: -98982446
+      ataque sem cabeca_25: 576259179
+      ataque sem cabeca_26: -1459205834
+      ataque sem cabeca_27: 1632919533
+      ataque sem cabeca_28: 2024553141
+      ataque sem cabeca_29: 10339010
+      ataque sem cabeca_3: -319325082
+      ataque sem cabeca_30: -547423231
+      ataque sem cabeca_31: 890638988
+      ataque sem cabeca_32: -903178565
+      ataque sem cabeca_33: -1957225033
+      ataque sem cabeca_34: 385959832
+      ataque sem cabeca_35: -586169486
+      ataque sem cabeca_36: 1119745061
+      ataque sem cabeca_37: 1411617096
+      ataque sem cabeca_38: -1756500246
+      ataque sem cabeca_4: 2087751986
+      ataque sem cabeca_5: 750672598
+      ataque sem cabeca_6: 799330944
+      ataque sem cabeca_7: -947350084
+      ataque sem cabeca_8: 855954944
+      ataque sem cabeca_9: -1649812176
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

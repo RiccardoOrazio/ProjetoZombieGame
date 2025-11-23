@@ -26,6 +26,9 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float obstacleRayLength = 1.5f;
     [SerializeField] private float bodyRadius = 0.5f;
 
+    [Header("Variação Visual")]
+    [SerializeField] private bool isHeadless = false;
+
     private Rigidbody rb;
     private Animator animator;
     private Camera mainCamera;
@@ -62,6 +65,14 @@ public class EnemyAI : MonoBehaviour
         }
 
         aimDirection = Vector3.forward;
+    }
+
+    void Start()
+    {
+        if (animator != null)
+        {
+            animator.SetLayerWeight(1, isHeadless ? 1f : 0f);
+        }
     }
 
     public void SetStunned(bool state)

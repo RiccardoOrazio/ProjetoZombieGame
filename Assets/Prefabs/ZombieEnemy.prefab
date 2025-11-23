@@ -167,8 +167,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8, y: 4.1060224, z: 2.3121974}
-  m_Center: {x: 0.03584133, y: 2.225661, z: -0.18868577}
+  m_Size: {x: 1.8000001, y: 4.106023, z: 2.739927}
+  m_Center: {x: 0.035841353, y: 2.2256613, z: -0.40254825}
 --- !u!114 &414700663560761995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   targetCircle: {fileID: 3270458085525609789}
+  hitStunDuration: 0.5
 --- !u!114 &7490776411051101908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +205,8 @@ MonoBehaviour:
   attackCooldown: 3
   attackDamage: 25
   attackHitboxRadius: 0.5
-  attackWindUpTime: 2
+  attackDamageDelay: 0.8
+  attackMoveLockTime: 1
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 8
