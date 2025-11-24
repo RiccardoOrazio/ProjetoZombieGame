@@ -35,10 +35,11 @@ public class AimController : MonoBehaviour
                 currentTargetComponent = null;
             }
             TargetedEnemy = null;
-            return;
         }
-
-        IsAiming = Input.GetMouseButton(1);
+        else
+        {
+            IsAiming = Input.GetMouseButton(1);
+        }
 
         var forward = mainCamera.transform.forward;
         forward.y = 0;

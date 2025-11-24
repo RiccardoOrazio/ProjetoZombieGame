@@ -7,6 +7,9 @@ public class ItemSwitcher : MonoBehaviour
     [SerializeField] private LanternaController lanternSystem;
     [SerializeField] private GameObject lanternaHolder;
 
+    [Header("Referências da UI")]
+    [SerializeField] private GameObject ammoTextContainer;
+
     private Animator animator;
 
     void Awake()
@@ -41,6 +44,7 @@ public class ItemSwitcher : MonoBehaviour
         if (shootingSystem != null) shootingSystem.enabled = true;
         if (lanternSystem != null) lanternSystem.enabled = false;
         if (lanternaHolder != null) lanternaHolder.SetActive(false);
+        if (ammoTextContainer != null) ammoTextContainer.SetActive(true);
 
         if (animator != null)
         {
@@ -53,6 +57,7 @@ public class ItemSwitcher : MonoBehaviour
         if (shootingSystem != null) shootingSystem.enabled = false;
         if (lanternSystem != null) lanternSystem.enabled = true;
         if (lanternaHolder != null) lanternaHolder.SetActive(true);
+        if (ammoTextContainer != null) ammoTextContainer.SetActive(false);
 
         if (animator != null)
         {
