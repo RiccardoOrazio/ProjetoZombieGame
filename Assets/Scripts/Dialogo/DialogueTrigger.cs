@@ -56,6 +56,11 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
+        if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
+        {
+            return;
+        }
+
         if (playerIsInRange && !startAutomatically && Input.GetKeyDown(interactionKey))
         {
             StartDialogue();
