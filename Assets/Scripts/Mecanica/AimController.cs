@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class AimController : MonoBehaviour
 {
     public Vector3 AimDirection { get; private set; }
@@ -9,11 +10,14 @@ public class AimController : MonoBehaviour
     private IsometricPlayerMovement playerMovement;
     private Camera mainCamera;
     private NpcHealth currentTargetComponent;
+    private AudioSource audioSource;
+    private bool wasAiming = false;
 
     void Awake()
     {
         playerMovement = GetComponent<IsometricPlayerMovement>();
         mainCamera = Camera.main;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -40,6 +44,15 @@ public class AimController : MonoBehaviour
         {
             IsAiming = Input.GetMouseButton(1);
         }
+
+        if (IsAiming && !wasAiming)
+        {
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlaySound(audioSource, AudioManager.instance.weaponAim, 0.8f);
+            }
+        }
+        wasAiming = IsAiming;
 
         var forward = mainCamera.transform.forward;
         forward.y = 0;

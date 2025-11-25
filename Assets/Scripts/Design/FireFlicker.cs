@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class FireFlicker : MonoBehaviour
 {
     [SerializeField]
@@ -18,6 +19,7 @@ public class FireFlicker : MonoBehaviour
     private float smoothing = 2.5f;
 
     private float targetIntensity;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -26,6 +28,15 @@ public class FireFlicker : MonoBehaviour
             fireLight = GetComponent<Light>();
         }
         targetIntensity = fireLight.intensity;
+
+        audioSource = GetComponent<AudioSource>();
+
+        if (AudioManager.instance != null && AudioManager.instance.fireLoop != null)
+        {
+            audioSource.clip = AudioManager.instance.fireLoop;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
     }
 
     void Update()

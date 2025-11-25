@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class LanternaController : MonoBehaviour
 {
     [Header("Referências")]
@@ -10,10 +11,13 @@ public class LanternaController : MonoBehaviour
     [SerializeField] private float distanciaDaLanterna = 2.5f;
 
     private AimController aimController;
+    private AudioSource audioSource;
+    private bool wasAiming = false;
 
     void Awake()
     {
         aimController = GetComponent<AimController>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -45,6 +49,22 @@ public class LanternaController : MonoBehaviour
         {
             PosicionarLanterna();
             RotacionarLanterna();
+
+            if (!wasAiming)
+            {
+                if (AudioManager.instance != null)
+                    AudioManager.instance.PlaySound(audioSource, AudioManager.instance.flashlightClick);
+                wasAiming = true;
+            }
+        }
+        else
+        {
+            if (wasAiming)
+            {
+                if (AudioManager.instance != null)
+                    AudioManager.instance.PlaySound(audioSource, AudioManager.instance.flashlightClick);
+                wasAiming = false;
+            }
         }
 
         if (lanternaLight != null && lanternaLight.enabled)

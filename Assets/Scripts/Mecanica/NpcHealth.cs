@@ -10,11 +10,18 @@ public class NpcHealth : MonoBehaviour
     private int currentHealth;
     private Animator animator;
     private EnemyAI enemyAI;
+    private AudioSource audioSource;
 
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
         enemyAI = GetComponent<EnemyAI>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.spatialBlend = 1f;
+        }
     }
 
     void Start()
@@ -41,6 +48,8 @@ public class NpcHealth : MonoBehaviour
         if (currentHealth > 0)
         {
             if (animator != null) animator.SetTrigger("Hit");
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlaySound(audioSource, AudioManager.instance.zombieHurt);
             if (enemyAI != null) StartCoroutine(StunRoutine());
         }
         else
@@ -62,6 +71,10 @@ public class NpcHealth : MonoBehaviour
         {
             GameManagerTemporario.instance.OnEnemyKilled();
         }
+
+        if (AudioManager.instance != null)
+            AudioManager.instance.PlayAtPoint(AudioManager.instance.zombieDeath, transform.position);
+
         SetTargeted(false);
         Destroy(gameObject);
     }

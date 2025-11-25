@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(AudioSource))]
 public class IsometricPlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
@@ -12,6 +13,9 @@ public class IsometricPlayerMovement : MonoBehaviour
     [Header("Sprite Settings")]
     [SerializeField] private bool spriteFacesRightByDefault = true;
 
+    [Header("Audio Settings")]
+    [SerializeField] private float stepInterval = 0.4f;
+
     public bool IsCurrentlyFacingRight { get; private set; }
     public Vector2 InputDirection { get; private set; }
     public Vector2 LastInputDirection { get; private set; }
@@ -20,6 +24,8 @@ public class IsometricPlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Animator animator;
     private AimController aimController;
+    private AudioSource audioSource;
+    private float stepTimer;
 
     void Awake()
     {
@@ -27,6 +33,7 @@ public class IsometricPlayerMovement : MonoBehaviour
         IsCurrentlyFacingRight = spriteFacesRightByDefault;
         animator = GetComponentInChildren<Animator>();
         aimController = GetComponent<AimController>();
+        audioSource = GetComponent<AudioSource>();
         LastInputDirection = new Vector2(0, -1);
         CanMove = true;
     }
@@ -53,6 +60,11 @@ public class IsometricPlayerMovement : MonoBehaviour
         if (isMoving)
         {
             LastInputDirection = InputDirection.normalized;
+            HandleFootsteps();
+        }
+        else
+        {
+            stepTimer = 0f;
         }
 
         Vector3 directionToAnimate = aimController.AimDirection;
@@ -89,5 +101,18 @@ public class IsometricPlayerMovement : MonoBehaviour
         Vector3 moveDirection = (forward * InputDirection.y + right * InputDirection.x).normalized;
         Vector3 targetVelocity = moveDirection * moveSpeed;
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
+    }
+
+    private void HandleFootsteps()
+    {
+        stepTimer -= Time.deltaTime;
+        if (stepTimer <= 0)
+        {
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayRandomFootstep(audioSource);
+            }
+            stepTimer = stepInterval;
+        }
     }
 }

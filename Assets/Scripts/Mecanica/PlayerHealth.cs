@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Configurações de Vida")]
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     private AimController aimController;
     private Animator animator;
     private LanternaController lanternaController;
+    private AudioSource audioSource;
 
     void Awake()
     {
@@ -29,6 +31,7 @@ public class PlayerHealth : MonoBehaviour
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
         lanternaController = GetComponent<LanternaController>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -64,6 +67,10 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlaySound(audioSource, AudioManager.instance.playerHurt);
+            }
             StartCoroutine(HandleHitStun());
         }
     }
@@ -103,6 +110,11 @@ public class PlayerHealth : MonoBehaviour
     {
         isDead = true;
         Debug.Log("Player Morreu!");
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySound(audioSource, AudioManager.instance.playerDeath);
+        }
 
         if (animator != null) animator.SetTrigger("Hit");
 

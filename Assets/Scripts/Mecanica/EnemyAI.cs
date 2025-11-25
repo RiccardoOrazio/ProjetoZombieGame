@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(AudioSource))]
 public class EnemyAI : MonoBehaviour
 {
     [Header("Referências")]
@@ -32,16 +33,19 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody rb;
     private Animator animator;
     private Camera mainCamera;
+    private AudioSource audioSource;
     private float lastAttackTime = -999f;
     private Vector3 aimDirection = Vector3.forward;
     private bool shouldChase = false;
     private float distanceToPlayer;
     private bool isStunned = false;
+    private bool hasAggroed = false;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponentInChildren<Animator>();
+        audioSource = GetComponent<AudioSource>();
         mainCamera = Camera.main;
 
         if (playerTransform == null)
@@ -118,6 +122,13 @@ public class EnemyAI : MonoBehaviour
         }
         else if (distanceToPlayer <= detectionRadius)
         {
+            if (!hasAggroed)
+            {
+                if (AudioManager.instance != null)
+                    AudioManager.instance.PlaySound(audioSource, AudioManager.instance.zombieAggro);
+                hasAggroed = true;
+            }
+
             HandleAiming();
             PositionAttackPoint();
 
@@ -135,6 +146,7 @@ public class EnemyAI : MonoBehaviour
         else
         {
             shouldChase = false;
+            hasAggroed = false;
         }
 
         if (animator != null)
@@ -227,6 +239,9 @@ public class EnemyAI : MonoBehaviour
             lastAttackTime = Time.time;
 
             if (animator != null) animator.SetTrigger("Attack");
+
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlaySound(audioSource, AudioManager.instance.zombieAttack);
 
             StartCoroutine(ApplyDamageAfterDelay(attackDamageDelay));
         }

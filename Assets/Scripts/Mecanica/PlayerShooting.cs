@@ -3,6 +3,7 @@ using UnityEngine.VFX;
 using TMPro;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class PlayerShooting : MonoBehaviour
 {
     [Header("Referências")]
@@ -29,6 +30,7 @@ public class PlayerShooting : MonoBehaviour
 
     private AimController aimController;
     private Animator animator;
+    private AudioSource audioSource;
 
     private int currentClipAmmo;
     private int currentTotalAmmo;
@@ -38,6 +40,7 @@ public class PlayerShooting : MonoBehaviour
     {
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -86,6 +89,10 @@ public class PlayerShooting : MonoBehaviour
             }
             else
             {
+                if (AudioManager.instance != null)
+                {
+                    AudioManager.instance.PlaySound(audioSource, AudioManager.instance.dryFire);
+                }
                 Debug.Log("CLIQUE! (Sem munição)");
             }
         }
@@ -115,7 +122,11 @@ public class PlayerShooting : MonoBehaviour
     {
         isReloading = true;
         CanShoot = false;
-        Debug.Log("Recarregando...");
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySound(audioSource, AudioManager.instance.reload);
+        }
 
         if (reloadText != null)
         {
@@ -134,7 +145,6 @@ public class PlayerShooting : MonoBehaviour
         isReloading = false;
         CanShoot = true;
         UpdateAmmoUI();
-        Debug.Log("Recarga completa!");
 
         if (reloadText != null)
         {
@@ -190,6 +200,11 @@ public class PlayerShooting : MonoBehaviour
 
         CanShoot = false;
         animator.SetTrigger("Shoot");
+
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.PlaySound(audioSource, AudioManager.instance.gunshot, 1f, 0.1f);
+        }
 
         firePoint.rotation = Quaternion.LookRotation(finalDirection);
 

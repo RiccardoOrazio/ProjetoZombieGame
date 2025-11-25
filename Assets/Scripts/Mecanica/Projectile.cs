@@ -13,7 +13,6 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.CompareTag("Inimigo"))
         {
             NpcHealth npcHealth = other.gameObject.GetComponent<NpcHealth>();
@@ -25,6 +24,8 @@ public class Projectile : MonoBehaviour
 
         if (!other.gameObject.CompareTag("Player"))
         {
+            if (AudioManager.instance != null)
+                AudioManager.instance.PlayAtPoint(AudioManager.instance.bulletImpact, transform.position);
             Destroy(gameObject);
         }
     }
