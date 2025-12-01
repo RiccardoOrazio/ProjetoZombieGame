@@ -134,7 +134,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (animator != null)
         {
-            animator.SetTrigger("Hit");
+            animator.SetTrigger("Die");
         }
 
         if (deathTextObject != null)
