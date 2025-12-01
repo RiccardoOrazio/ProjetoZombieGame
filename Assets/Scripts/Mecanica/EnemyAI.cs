@@ -40,6 +40,7 @@ public class EnemyAI : MonoBehaviour
     private float distanceToPlayer;
     private bool isStunned = false;
     private bool hasAggroed = false;
+    private PlayerHealth targetHealth;
 
     void Awake()
     {
@@ -48,23 +49,31 @@ public class EnemyAI : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         mainCamera = Camera.main;
 
+        rb.mass = 1000f;
+        rb.linearDamping = 0f;
+        rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY;
+        rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+
         if (playerTransform == null)
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
             if (playerObj != null)
             {
                 playerTransform = playerObj.transform;
+                targetHealth = playerObj.GetComponent<PlayerHealth>();
             }
             else
             {
-                Debug.LogError("IA do Inimigo: Player não encontrado! Verifique a tag 'Player'.", this);
                 enabled = false;
             }
+        }
+        else
+        {
+            targetHealth = playerTransform.GetComponent<PlayerHealth>();
         }
 
         if (attackPoint == null)
         {
-            Debug.LogError("IA do Inimigo: 'Attack Point' não definido!", this);
             enabled = false;
         }
 
@@ -86,6 +95,7 @@ public class EnemyAI : MonoBehaviour
         {
             shouldChase = false;
             rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
             if (animator != null) animator.SetBool("IsMoving", false);
         }
     }
@@ -94,12 +104,25 @@ public class EnemyAI : MonoBehaviour
     {
         if (playerTransform == null) return;
 
+        if (targetHealth != null && targetHealth.IsDead)
+        {
+            shouldChase = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+            if (animator != null)
+            {
+                animator.SetBool("IsMoving", false);
+            }
+            return;
+        }
+
         if (isStunned) return;
 
         if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
         {
             shouldChase = false;
-            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
 
             if (animator != null)
             {
@@ -116,42 +139,54 @@ public class EnemyAI : MonoBehaviour
         if (isLockedInPlace)
         {
             shouldChase = false;
-            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
             HandleAiming();
             PositionAttackPoint();
-        }
-        else if (distanceToPlayer <= detectionRadius)
-        {
-            if (!hasAggroed)
-            {
-                if (AudioManager.instance != null)
-                    AudioManager.instance.PlaySound(audioSource, AudioManager.instance.zombieAggro);
-                hasAggroed = true;
-            }
-
-            HandleAiming();
-            PositionAttackPoint();
-
-            if (distanceToPlayer <= attackRadius && !isAttacking)
-            {
-                shouldChase = false;
-                rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
-                HandleAttack();
-            }
-            else
-            {
-                shouldChase = true;
-            }
         }
         else
         {
-            shouldChase = false;
-            hasAggroed = false;
+            if (distanceToPlayer <= detectionRadius)
+            {
+                if (!hasAggroed)
+                {
+                    if (AudioManager.instance != null)
+                        AudioManager.instance.PlaySound(audioSource, AudioManager.instance.zombieAggro);
+                    hasAggroed = true;
+                }
+
+                HandleAiming();
+                PositionAttackPoint();
+
+                if (distanceToPlayer <= attackRadius)
+                {
+                    shouldChase = false;
+                    rb.linearVelocity = Vector3.zero;
+                    rb.isKinematic = true;
+
+                    if (!isAttacking)
+                    {
+                        HandleAttack();
+                    }
+                }
+                else
+                {
+                    shouldChase = true;
+                    rb.isKinematic = false;
+                }
+            }
+            else
+            {
+                shouldChase = false;
+                hasAggroed = false;
+                rb.linearVelocity = Vector3.zero;
+                rb.isKinematic = true;
+            }
         }
 
         if (animator != null)
         {
-            bool isMoving = rb.linearVelocity.magnitude > 0.1f;
+            bool isMoving = rb.linearVelocity.magnitude > 0.1f && !rb.isKinematic;
             animator.SetBool("IsMoving", isMoving);
 
             var forward = mainCamera.transform.forward;
@@ -171,18 +206,26 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isStunned) return;
+        if (isStunned || (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)) return;
+
+        if (targetHealth != null && targetHealth.IsDead) return;
+
+        if (rb.isKinematic) return;
 
         if (shouldChase)
         {
+            float dist = Vector3.Distance(transform.position, playerTransform.position);
+            if (dist <= attackRadius)
+            {
+                rb.linearVelocity = Vector3.zero;
+                return;
+            }
+
             Vector3 idealDirection = aimDirection;
             Vector3 finalDirection = CalculateAvoidanceDirection(idealDirection);
-            Vector3 targetVelocity = finalDirection * moveSpeed;
-            rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
-        }
-        else
-        {
-            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+
+            Vector3 targetPosition = rb.position + finalDirection * moveSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(targetPosition);
         }
     }
 
@@ -254,6 +297,8 @@ public class EnemyAI : MonoBehaviour
         if (playerTransform == null) yield break;
         if (isStunned) yield break;
 
+        if (targetHealth != null && targetHealth.IsDead) yield break;
+
         float distanceToPlayerOnImpact = Vector3.Distance(transform.position, playerTransform.position);
         if (distanceToPlayerOnImpact > attackRadius + 1.5f) yield break;
 
@@ -263,10 +308,9 @@ public class EnemyAI : MonoBehaviour
         {
             if (hit.CompareTag("Player"))
             {
-                PlayerHealth playerHealth = hit.GetComponent<PlayerHealth>();
-                if (playerHealth != null)
+                if (targetHealth != null)
                 {
-                    playerHealth.TakeDamage(attackDamage);
+                    targetHealth.TakeDamage(attackDamage);
                     Debug.Log("Inimigo ACERTOU o Player!");
                     break;
                 }

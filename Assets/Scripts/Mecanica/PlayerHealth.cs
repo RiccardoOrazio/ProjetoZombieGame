@@ -13,8 +13,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private GameObject deathTextObject;
 
+    public bool IsDead { get; private set; } = false;
     private int currentHealth;
-    private bool isDead = false;
     private bool isHurting = false;
 
     private IsometricPlayerMovement playerMovement;
@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
     private Animator animator;
     private LanternaController lanternaController;
     private AudioSource audioSource;
+    private Rigidbody rb;
 
     void Awake()
     {
@@ -32,12 +33,13 @@ public class PlayerHealth : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         lanternaController = GetComponent<LanternaController>();
         audioSource = GetComponent<AudioSource>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Start()
     {
         currentHealth = maxHealth;
-        isDead = false;
+        IsDead = false;
         isHurting = false;
 
         if (deathTextObject != null)
@@ -50,7 +52,9 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isDead || isHurting) return;
+        if (IsDead) return;
+
+        if (isHurting) return;
 
         currentHealth -= damage;
 
@@ -79,6 +83,8 @@ public class PlayerHealth : MonoBehaviour
     {
         isHurting = true;
 
+        if (rb != null) rb.isKinematic = true;
+
         if (animator != null) animator.SetTrigger("Hit");
 
         if (playerMovement != null) playerMovement.CanMove = false;
@@ -88,8 +94,10 @@ public class PlayerHealth : MonoBehaviour
 
         yield return new WaitForSeconds(hitStunDuration);
 
-        if (!isDead)
+        if (!IsDead)
         {
+            if (rb != null) rb.isKinematic = false;
+
             if (playerMovement != null) playerMovement.CanMove = true;
             if (playerShooting != null) playerShooting.CanShoot = true;
             if (aimController != null) aimController.enabled = true;
@@ -108,24 +116,52 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        isDead = true;
+        IsDead = true;
+        StopAllCoroutines();
+
         Debug.Log("Player Morreu!");
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+        }
 
         if (AudioManager.instance != null)
         {
             AudioManager.instance.PlaySound(audioSource, AudioManager.instance.playerDeath);
         }
 
-        if (animator != null) animator.SetTrigger("Hit");
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+        }
 
         if (deathTextObject != null)
         {
             deathTextObject.SetActive(true);
         }
 
-        if (playerMovement != null) playerMovement.CanMove = false;
-        if (playerShooting != null) playerShooting.CanShoot = false;
-        if (aimController != null) aimController.enabled = false;
-        if (lanternaController != null) lanternaController.enabled = false;
+        if (playerMovement != null)
+        {
+            playerMovement.DisableMovement();
+        }
+
+        if (playerShooting != null)
+        {
+            playerShooting.enabled = false;
+        }
+
+        if (aimController != null)
+        {
+            aimController.enabled = false;
+        }
+
+        if (lanternaController != null)
+        {
+            lanternaController.enabled = false;
+        }
+
+        Cursor.visible = true;
     }
 }

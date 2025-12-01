@@ -36,11 +36,39 @@ public class IsometricPlayerMovement : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         LastInputDirection = new Vector2(0, -1);
         CanMove = true;
+
+        if (rb != null)
+        {
+            rb.mass = 80f;
+            rb.linearDamping = 0f;
+            rb.constraints = RigidbodyConstraints.FreezeRotation;
+            rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        }
+    }
+
+    public void DisableMovement()
+    {
+        CanMove = false;
+        InputDirection = Vector2.zero;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+        }
+
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsAiming", false);
+        }
+
+        this.enabled = false;
     }
 
     void Update()
     {
-        bool isAiming = aimController.IsAiming;
+        bool isAiming = aimController != null && aimController.IsAiming;
         bool dialogueActive = (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive);
 
         if (!CanMove || isAiming || dialogueActive)
@@ -53,9 +81,12 @@ public class IsometricPlayerMovement : MonoBehaviour
         }
 
         bool isMoving = InputDirection.magnitude > 0.1f;
-        animator.SetBool("IsMoving", isMoving);
 
-        animator.SetBool("IsAiming", isAiming);
+        if (animator != null)
+        {
+            animator.SetBool("IsMoving", isMoving);
+            animator.SetBool("IsAiming", isAiming);
+        }
 
         if (isMoving)
         {
@@ -67,26 +98,40 @@ public class IsometricPlayerMovement : MonoBehaviour
             stepTimer = 0f;
         }
 
-        Vector3 directionToAnimate = aimController.AimDirection;
-        var forward = Camera.main.transform.forward;
-        forward.y = 0;
-        forward.Normalize();
-        var right = Camera.main.transform.right;
-        right.y = 0;
-        right.Normalize();
+        if (aimController != null)
+        {
+            Vector3 directionToAnimate = aimController.AimDirection;
+            var forward = Camera.main.transform.forward;
+            forward.y = 0;
+            forward.Normalize();
+            var right = Camera.main.transform.right;
+            right.y = 0;
+            right.Normalize();
 
-        float dirX = Vector3.Dot(directionToAnimate, right);
-        float dirY = Vector3.Dot(directionToAnimate, forward);
+            float dirX = Vector3.Dot(directionToAnimate, right);
+            float dirY = Vector3.Dot(directionToAnimate, forward);
 
-        animator.SetFloat("DirX", dirX);
-        animator.SetFloat("DirY", dirY);
+            if (animator != null)
+            {
+                animator.SetFloat("DirX", dirX);
+                animator.SetFloat("DirY", dirY);
+            }
+        }
     }
 
     void FixedUpdate()
     {
-        if (!CanMove || aimController.IsAiming || (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive))
+        if (!CanMove || (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive))
         {
-            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+            return;
+        }
+
+        if (aimController != null && aimController.IsAiming)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
             return;
         }
 
@@ -99,8 +144,17 @@ public class IsometricPlayerMovement : MonoBehaviour
         right.Normalize();
 
         Vector3 moveDirection = (forward * InputDirection.y + right * InputDirection.x).normalized;
-        Vector3 targetVelocity = moveDirection * moveSpeed;
-        rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
+
+        if (moveDirection == Vector3.zero)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.isKinematic = true;
+        }
+        else
+        {
+            rb.isKinematic = false;
+            rb.linearVelocity = new Vector3(moveDirection.x * moveSpeed, rb.linearVelocity.y, moveDirection.z * moveSpeed);
+        }
     }
 
     private void HandleFootsteps()
