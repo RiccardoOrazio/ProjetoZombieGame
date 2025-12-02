@@ -141,7 +141,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.32, y: 0.25, z: -2.77}
-  m_LocalScale: {x: 0.49357983, y: 0.49357983, z: 0.49357983}
+  m_LocalScale: {x: 0.7233812, y: 0.7233812, z: 0.7233812}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7211685018813918913}
@@ -168,8 +168,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8000001, y: 4.106023, z: 2.739927}
-  m_Center: {x: 0.035841353, y: 2.2256613, z: -0.40254825}
+  m_Size: {x: 1.8000001, y: 3.584801, z: 2.739927}
+  m_Center: {x: 0.035841335, y: 2.4862719, z: -0.40254828}
 --- !u!114 &414700663560761995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   attackRadius: 1.75
   attackPointDistance: 1.5
   attackCooldown: 3
-  attackDamage: 1
+  attackDamage: 20
   attackHitboxRadius: 0.5
   attackDamageDelay: 0.8
   attackMoveLockTime: 1
@@ -213,7 +213,7 @@ MonoBehaviour:
     m_Bits: 8
   obstacleRayLength: -0.95
   bodyRadius: 0.65
-  isHeadless: 0
+  isHeadless: 1
 --- !u!54 &5755010884209080498
 Rigidbody:
   m_ObjectHideFlags: 0

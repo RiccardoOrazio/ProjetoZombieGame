@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class PlayerHealth : MonoBehaviour
@@ -12,6 +13,10 @@ public class PlayerHealth : MonoBehaviour
     [Header("Referências da UI (Canvas)")]
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private GameObject deathTextObject;
+    [SerializeField] private TextMeshProUGUI respawnTimerText;
+
+    [Header("Configuração de Respawn")]
+    [SerializeField] private float timeToRespawn = 5f;
 
     public bool IsDead { get; private set; } = false;
     private int currentHealth;
@@ -24,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
     private LanternaController lanternaController;
     private AudioSource audioSource;
     private Rigidbody rb;
+    private ItemSwitcher itemSwitcher;
 
     void Awake()
     {
@@ -34,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
         lanternaController = GetComponent<LanternaController>();
         audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+        itemSwitcher = GetComponent<ItemSwitcher>();
     }
 
     void Start()
@@ -45,6 +52,11 @@ public class PlayerHealth : MonoBehaviour
         if (deathTextObject != null)
         {
             deathTextObject.SetActive(false);
+        }
+
+        if (respawnTimerText != null)
+        {
+            respawnTimerText.gameObject.SetActive(false);
         }
 
         UpdateHealthUI();
@@ -91,6 +103,7 @@ public class PlayerHealth : MonoBehaviour
         if (playerShooting != null) playerShooting.CanShoot = false;
         if (aimController != null) aimController.enabled = false;
         if (lanternaController != null) lanternaController.enabled = false;
+        if (itemSwitcher != null) itemSwitcher.enabled = false;
 
         yield return new WaitForSeconds(hitStunDuration);
 
@@ -102,6 +115,7 @@ public class PlayerHealth : MonoBehaviour
             if (playerShooting != null) playerShooting.CanShoot = true;
             if (aimController != null) aimController.enabled = true;
             if (lanternaController != null) lanternaController.enabled = true;
+            if (itemSwitcher != null) itemSwitcher.enabled = true;
             isHurting = false;
         }
     }
@@ -142,26 +156,36 @@ public class PlayerHealth : MonoBehaviour
             deathTextObject.SetActive(true);
         }
 
-        if (playerMovement != null)
-        {
-            playerMovement.DisableMovement();
-        }
-
-        if (playerShooting != null)
-        {
-            playerShooting.enabled = false;
-        }
-
-        if (aimController != null)
-        {
-            aimController.enabled = false;
-        }
-
-        if (lanternaController != null)
-        {
-            lanternaController.enabled = false;
-        }
+        if (playerMovement != null) playerMovement.DisableMovement();
+        if (playerShooting != null) playerShooting.enabled = false;
+        if (aimController != null) aimController.enabled = false;
+        if (lanternaController != null) lanternaController.enabled = false;
+        if (itemSwitcher != null) itemSwitcher.enabled = false;
 
         Cursor.visible = true;
+
+        StartCoroutine(RespawnRoutine());
+    }
+
+    private IEnumerator RespawnRoutine()
+    {
+        if (respawnTimerText != null)
+        {
+            respawnTimerText.gameObject.SetActive(true);
+        }
+
+        float timer = timeToRespawn;
+
+        while (timer > 0)
+        {
+            if (respawnTimerText != null)
+            {
+                respawnTimerText.text = Mathf.Ceil(timer).ToString();
+            }
+            yield return null;
+            timer -= Time.deltaTime;
+        }
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

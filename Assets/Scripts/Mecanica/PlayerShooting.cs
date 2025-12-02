@@ -31,6 +31,7 @@ public class PlayerShooting : MonoBehaviour
     private AimController aimController;
     private Animator animator;
     private AudioSource audioSource;
+    private PlayerHealth playerHealth;
 
     private int currentClipAmmo;
     private int currentTotalAmmo;
@@ -41,6 +42,7 @@ public class PlayerShooting : MonoBehaviour
         aimController = GetComponent<AimController>();
         animator = GetComponentInChildren<Animator>();
         audioSource = GetComponent<AudioSource>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     void Start()
@@ -59,6 +61,8 @@ public class PlayerShooting : MonoBehaviour
 
     void Update()
     {
+        if (playerHealth != null && playerHealth.IsDead) return;
+
         if (DialogueManager.instance != null && DialogueManager.instance.IsDialogueActive)
         {
             return;
@@ -135,6 +139,8 @@ public class PlayerShooting : MonoBehaviour
         }
 
         yield return new WaitForSeconds(reloadTime);
+
+        if (playerHealth != null && playerHealth.IsDead) yield break;
 
         int ammoNeeded = clipSize - currentClipAmmo;
         int ammoToReload = Mathf.Min(ammoNeeded, currentTotalAmmo);
