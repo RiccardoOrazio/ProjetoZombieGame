@@ -4,6 +4,10 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
 
+    [Header("Music Settings")]
+    public AudioClip backgroundMusic;
+    [Range(0f, 1f)] public float musicVolume = 0.3f;
+
     [Header("Player Sounds")]
     public AudioClip[] footsteps;
     public AudioClip playerHurt;
@@ -27,16 +31,36 @@ public class AudioManager : MonoBehaviour
     public AudioClip ammoPickup;
     public AudioClip fireLoop;
 
+    private AudioSource musicSource;
+
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
+            InitializeMusic();
         }
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void InitializeMusic()
+    {
+        musicSource = gameObject.AddComponent<AudioSource>();
+
+        musicSource.clip = backgroundMusic;
+        musicSource.volume = musicVolume;
+        musicSource.loop = true;
+        musicSource.spatialBlend = 0f;
+        musicSource.playOnAwake = false;
+
+        if (backgroundMusic != null)
+        {
+            musicSource.Play();
         }
     }
 
@@ -65,7 +89,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"AudioManager: Tentou tocar um som, mas o AudioClip está VAZIO (Null). Verifique o Inspector do AudioManager.");
+            Debug.LogWarning($"AudioManager: Tentou tocar um som, mas o AudioClip está VAZIO (Null).");
         }
     }
 
