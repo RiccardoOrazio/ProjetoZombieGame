@@ -100,12 +100,12 @@ TextureImporter:
       name: preparando attack_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 10
         y: 422
-        width: 40
+        width: 59
         height: 48
       alignment: 9
-      pivot: {x: 0.40036917, y: 0.4981556}
+      pivot: {x: 0.40794766, y: 0.47020975}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -122,12 +122,12 @@ TextureImporter:
       name: preparando attack_1
       rect:
         serializedVersion: 2
-        x: 273
+        x: 264
         y: 422
-        width: 42
+        width: 65
         height: 53
       alignment: 9
-      pivot: {x: 0.44546655, y: 0.48976624}
+      pivot: {x: 0.38018188, y: 0.40973535}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -144,12 +144,12 @@ TextureImporter:
       name: preparando attack_2
       rect:
         serializedVersion: 2
-        x: 529
+        x: 519
         y: 422
-        width: 31
+        width: 69
         height: 53
       alignment: 9
-      pivot: {x: 0.5942088, y: 0.49026027}
+      pivot: {x: 0.40036917, y: 0.4981556}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,19 +166,19 @@ TextureImporter:
       name: preparando attack_3
       rect:
         serializedVersion: 2
-        x: 22
+        x: 6
         y: 362
-        width: 20
+        width: 65
         height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.40036917, y: 0.4981556}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b4b9b3ad25bdf94d9d086a62ffcd4bf
+      spriteID: 1d064e30baf207645a0ca9e166c6838c
       internalID: -504213041
       vertices: []
       indices: 
@@ -188,19 +188,19 @@ TextureImporter:
       name: preparando attack_4
       rect:
         serializedVersion: 2
-        x: 276
+        x: 262
         y: 362
-        width: 23
+        width: 65
         height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.40036902, y: 0.47654724}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f3bcf3a24b3726479a69edfab5ca7e7
+      spriteID: 00857c5b2280b25409777e50655abd86
       internalID: -1803757595
       vertices: []
       indices: 
@@ -210,19 +210,19 @@ TextureImporter:
       name: preparando attack_5
       rect:
         serializedVersion: 2
-        x: 534
+        x: 518
         y: 362
-        width: 20
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 51
+      alignment: 9
+      pivot: {x: 0.39779335, y: 0.4653141}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81f3011d13afd9046851d674eded519a
+      spriteID: 10a2b4f552fc01a4a9bf3952026828e4
       internalID: -559250807
       vertices: []
       indices: 
@@ -232,19 +232,19 @@ TextureImporter:
       name: preparando attack_6
       rect:
         serializedVersion: 2
-        x: 13
+        x: 525
         y: 306
-        width: 29
-        height: 49
+        width: 55
+        height: 55
       alignment: 9
-      pivot: {x: 0.8291743, y: 0.5043808}
+      pivot: {x: 0.35161576, y: 0.44840586}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00572ce320551a74688d061716754439
+      spriteID: 82b776cdc6496f34f9f844054ec6e458
       internalID: -219847795
       vertices: []
       indices: 
@@ -256,17 +256,17 @@ TextureImporter:
         serializedVersion: 2
         x: 269
         y: 306
-        width: 29
-        height: 53
+        width: 55
+        height: 55
       alignment: 9
-      pivot: {x: 0.78025347, y: 0.49574077}
+      pivot: {x: 0.34498456, y: 0.44411567}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93dffc37875708048a6d6007020f4105
+      spriteID: 4472ecf7a352c2848b3c21f3043a5036
       internalID: -990508099
       vertices: []
       indices: 
@@ -276,19 +276,19 @@ TextureImporter:
       name: preparando attack_8
       rect:
         serializedVersion: 2
-        x: 529
+        x: 13
         y: 306
-        width: 25
-        height: 53
+        width: 55
+        height: 55
       alignment: 9
-      pivot: {x: 0.7184961, y: 0.4957045}
+      pivot: {x: 0.35454172, y: 0.44596446}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041e089901009c04aa4a34520980fa94
+      spriteID: daaa9c9e4bac4be49baeb2399e2cc607
       internalID: 1024008418
       vertices: []
       indices: 
@@ -298,19 +298,19 @@ TextureImporter:
       name: preparando attack_9
       rect:
         serializedVersion: 2
-        x: 23
+        x: 262
         y: 242
-        width: 38
-        height: 52
+        width: 56
+        height: 60
       alignment: 9
-      pivot: {x: 0.32418874, y: 0.50225186}
+      pivot: {x: 0.4851069, y: 0.44142762}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5237f05ec7198b4589c1d98d538abbd
+      spriteID: 8082256ef20428d40939e2e60f994f0d
       internalID: 953717137
       vertices: []
       indices: 
@@ -320,19 +320,19 @@ TextureImporter:
       name: preparando attack_10
       rect:
         serializedVersion: 2
-        x: 279
+        x: 516
         y: 242
-        width: 38
+        width: 56
         height: 60
       alignment: 9
-      pivot: {x: 0.31025454, y: 0.46936086}
+      pivot: {x: 0.52274215, y: 0.46897075}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be8318dab4f01045b55bea324e3604f
+      spriteID: 03de076a0aa9d38418234f4653e144a4
       internalID: 154691092
       vertices: []
       indices: 
@@ -342,19 +342,19 @@ TextureImporter:
       name: preparando attack_11
       rect:
         serializedVersion: 2
-        x: 535
+        x: 8
         y: 242
-        width: 18
+        width: 56
         height: 60
       alignment: 9
-      pivot: {x: 0.7018602, y: 0.45325166}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f42f9d0e8f0fe488f3b103d0956e01
+      spriteID: dde5884f1f997d64d853b30407e60dc8
       internalID: -1175136269
       vertices: []
       indices: 
@@ -364,19 +364,19 @@ TextureImporter:
       name: preparando attack_12
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 183
-        width: 40
-        height: 48
+        width: 56
+        height: 59
       alignment: 9
-      pivot: {x: 0.58775836, y: 0.5479819}
+      pivot: {x: 0.5069204, y: 0.37675813}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2aa68a7c1294974fb5e08d80fe21435
+      spriteID: 26bb99236df2fd949bf395af564f8049
       internalID: 557862627
       vertices: []
       indices: 
@@ -386,19 +386,19 @@ TextureImporter:
       name: preparando attack_13
       rect:
         serializedVersion: 2
-        x: 268
+        x: 267
         y: 183
-        width: 42
-        height: 53
+        width: 56
+        height: 58
       alignment: 9
-      pivot: {x: 0.56331015, y: 0.49405858}
+      pivot: {x: 0.49724633, y: 0.35613778}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8bbe2047b1d7e4fa735494efbae345
+      spriteID: 650db8ca6b8465647b307cab760a4aa6
       internalID: 1393567577
       vertices: []
       indices: 
@@ -408,19 +408,19 @@ TextureImporter:
       name: preparando attack_14
       rect:
         serializedVersion: 2
-        x: 535
+        x: 523
         y: 183
-        width: 31
-        height: 53
+        width: 56
+        height: 59
       alignment: 9
-      pivot: {x: 0.40005788, y: 0.4924112}
+      pivot: {x: 0.47535595, y: 0.4002078}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37adf76903b810041937d0323865d92a
+      spriteID: ab9204bc42001414dbb27f929deec743
       internalID: 1181386913
       vertices: []
       indices: 
@@ -430,19 +430,19 @@ TextureImporter:
       name: preparando attack_15
       rect:
         serializedVersion: 2
-        x: 29
+        x: 524
         y: 67
-        width: 29
-        height: 49
+        width: 56
+        height: 57
       alignment: 9
-      pivot: {x: 0.2539227, y: 0.48995504}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb28cb3c851e6e3439abe1760db22495
+      spriteID: f0e404119ede6de44a17dde58884a2b9
       internalID: 2034727585
       vertices: []
       indices: 
@@ -452,19 +452,19 @@ TextureImporter:
       name: preparando attack_16
       rect:
         serializedVersion: 2
-        x: 285
+        x: 268
         y: 67
-        width: 29
-        height: 53
+        width: 56
+        height: 57
       alignment: 9
-      pivot: {x: 0.2454371, y: 0.5092858}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b89e6be370c4eef4385e899f6ad4f2e3
+      spriteID: 508cb71e56f24c54fbd31bb1fd03ff0e
       internalID: 178904393
       vertices: []
       indices: 
@@ -474,19 +474,19 @@ TextureImporter:
       name: preparando attack_17
       rect:
         serializedVersion: 2
-        x: 541
+        x: 12
         y: 67
-        width: 25
-        height: 53
+        width: 56
+        height: 57
       alignment: 9
-      pivot: {x: 0.263291, y: 0.49570537}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7337ad44da458e4d8da3e92e597f4c8
+      spriteID: 4d6575bec841050499dd1254106ca576
       internalID: 1575211428
       vertices: []
       indices: 
@@ -498,17 +498,17 @@ TextureImporter:
         serializedVersion: 2
         x: 10
         y: 3
-        width: 38
-        height: 52
+        width: 59
+        height: 57
       alignment: 9
-      pivot: {x: 0.6695065, y: 0.53007245}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01052f7a0bd2ddc4f8715b537778167a
+      spriteID: 96881f541c09b4443a8367c2b2f6fc79
       internalID: 384860500
       vertices: []
       indices: 
@@ -520,17 +520,17 @@ TextureImporter:
         serializedVersion: 2
         x: 266
         y: 3
-        width: 38
-        height: 60
+        width: 59
+        height: 57
       alignment: 9
-      pivot: {x: 0.70062095, y: 0.46145806}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad249e489623d64fbbdf5fa969f08d9
+      spriteID: 221691d719dfcb740823176c7c665180
       internalID: -300366955
       vertices: []
       indices: 
@@ -540,19 +540,19 @@ TextureImporter:
       name: preparando attack_20
       rect:
         serializedVersion: 2
-        x: 542
+        x: 522
         y: 3
-        width: 18
-        height: 60
+        width: 59
+        height: 57
       alignment: 9
-      pivot: {x: 0.3386095, y: 0.45566308}
+      pivot: {x: 0.4498706, y: 0.44895935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25a5849c88e0904892f10bce0c6908d
+      spriteID: 632da4b005683c5479357056370d7ee1
       internalID: -913637896
       vertices: []
       indices: 

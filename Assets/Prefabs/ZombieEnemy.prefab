@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2468634556731798378}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.48, y: 3.16, z: -0.36}
+  m_LocalPosition: {x: -0.48, y: 3.16, z: -0.11}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,12 +82,12 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.27, y: 0.48}
+  m_Size: {x: 0.59, y: 0.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &3626166736531501213
 Animator:
   serializedVersion: 7
@@ -168,8 +168,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8000001, y: 3.584801, z: 2.739927}
-  m_Center: {x: 0.035841335, y: 2.4862719, z: -0.40254828}
+  m_Size: {x: 2.1234214, y: 5.2572384, z: 2.739927}
+  m_Center: {x: -0.41344318, y: 2.9275124, z: -0.40254828}
 --- !u!114 &414700663560761995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,12 +200,12 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   attackPoint: {fileID: 8935979116752846946}
   moveSpeed: 2
-  detectionRadius: 7.7
-  attackRadius: 1.75
+  detectionRadius: 9.26
+  attackRadius: 2.09
   attackPointDistance: 1.5
   attackCooldown: 3
   attackDamage: 20
-  attackHitboxRadius: 0.5
+  attackHitboxRadius: 0.75
   attackDamageDelay: 0.8
   attackMoveLockTime: 1
   obstacleLayer:
@@ -213,7 +213,7 @@ MonoBehaviour:
     m_Bits: 8
   obstacleRayLength: -0.95
   bodyRadius: 0.65
-  isHeadless: 1
+  isHeadless: 0
 --- !u!54 &5755010884209080498
 Rigidbody:
   m_ObjectHideFlags: 0

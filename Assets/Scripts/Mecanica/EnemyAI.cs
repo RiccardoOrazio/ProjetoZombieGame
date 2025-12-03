@@ -186,7 +186,7 @@ public class EnemyAI : MonoBehaviour
 
         if (animator != null)
         {
-            bool isMoving = rb.linearVelocity.magnitude > 0.1f && !rb.isKinematic;
+            bool isMoving = shouldChase && !rb.isKinematic;
             animator.SetBool("IsMoving", isMoving);
 
             var forward = mainCamera.transform.forward;
